@@ -1,0 +1,30 @@
+{
+  "brand": "CoStructure",
+  "nav": { "home": "Home", "map": "Map", "sections": "Sections" },
+  "hero": {
+    "title": "CoStructure",
+    "subtitle": "Minimal architectural prototype: urban places, clean forms, calm surfaces.",
+    "ctaExplore": "Explore map",
+    "ctaSections": "See sections"
+  },
+  "project": {
+    "title": "Project",
+    "subtitle": "Short & clear",
+    "intro": "CoStructure is a minimalist front-end experiment with an architectural look."
+  },
+  "footer": "© {{year}} CoStructure",
+  
+  "sketch": {
+    "title": "Concept sketch",
+    "subtitle": "Geometric Volume, Raster, calm contrasts"
+  },
+  "cards": {
+    "cardsHeadline": "Sections",
+    "mapTitle": "Map",
+    "mapDesc": "Interactive city map with few but selected spots.",
+    "galleryTitle": "Gallery",
+    "galleryDesc": "Sketches, snapshots, material collection.",
+    "aboutTitle": "About",
+    "aboutDesc": "What is CoStructure? Concept, tools, goals."
+  }
+}
