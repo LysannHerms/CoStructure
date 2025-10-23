@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       role="banner"
-      className="sticky top-0 z-40 bg-[color:var(--ash-gray3)]/80 shadow-sm" 
+      className="sticky top-0 z-40 bg-[color:var(--ash-gray3)]/60 backdrop-blur-sm shadow-sm" 
       // Tipp: 'bg-white' (NICHT bg-white/80), damit nix „durchscheint“
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">

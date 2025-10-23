@@ -9,12 +9,12 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div role="group" aria-label="Language switch" className="inline-flex rounded-lg border border-[color:var(--orange-pantone)]">
+    <div role="group" aria-label="Language switch" className="inline-flex border border-[color:var(--black-olive)] rounded-lg overflow-hidden">
       <button
         type="button"
         aria-pressed={current === "de"}
         onClick={() => change("de")}
-        className={`px-3 py-1 ${current === "de" ? "bg-[color:var(--orange-pantone)] text-white" : "hover:bg-[color:var(--anti-flash-white)]"}`}
+        className={`px-3 py-1 ${current === "de" ? "bg-[color:var(--ash-gray1)] text-white" : "hover:bg-[color:var(--anti-flash-white)]"}`}
       >
         DE
       </button>

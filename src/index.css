@@ -5,11 +5,10 @@
 html, body, #root { height: 100%; }
 body {
   margin: 0;
-  background: white;              /* weg mit dem dunklen Vite-Background */
+  background: white;  
   color: #111827;                 /* Tailwind gray-900 als Default-Textfarbe */
 }
 
-/* WICHTIG: NICHTS wie `#root { max-width: ... }` hier stehen lassen */
 :root{
   --ink: #112712;
   --green-dark: #2c4236;
@@ -23,6 +22,7 @@ body {
   --anti-flash-white: #ECF0ED;
   --white: #FFFFFF;
   --misty-rose: #FFE3DE;
+  --yellow-pantone: #ffa200;
   --orange-pantone: #FF5500;
   --golden-gate: #EF5103;
   --syracuse-red-orange: #DF4C06;
@@ -30,7 +30,4 @@ body {
   --Sienna: #7C3017;
   --caput-mortuum: #5F2316;
   --black-bean: #411614;
-
-
-
 }
