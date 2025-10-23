@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"; // i18n-Hook (DE/EN)
 export default function Hero() {
     const { t } = useTranslation("common"); // Zugriff auf Texte aus locales/*/common.json
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-[color:var(--line)] bg-[color:var(--ash-gray2)]/50">
+    <div className="relative overflow-hidden rounded-2xl  bg-[color:var(--ash-gray1)]/60">
       <div className="absolute inset-0 pointer-events-none">
       </div>
       {/*Überschrift und Untertitel*/}
