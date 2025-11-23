@@ -6,7 +6,7 @@ import Footer from "../shared/ui/Footer";
 export default function App() {
   const location = useLocation();
   const isMapRoute = location.pathname.startsWith("/map");
-
+  const isAboutRoute = location.pathname.startsWith("/about");
   return (
     <div className="min-h-dvh bg-white text-black-olive">
       <SkipLink />
@@ -18,7 +18,7 @@ export default function App() {
         id="main"
         role="main"
         className={
-          isMapRoute
+          isMapRoute || isAboutRoute
             ? "m-0 p-0" // Map: kein Padding, volle Fläche
             : "mx-auto max-w-5xl px-4 py-8"
         }

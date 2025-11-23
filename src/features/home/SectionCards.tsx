@@ -19,7 +19,7 @@ export default function SectionCards() {
     {
       title: t("cards.aboutTitle"),
       desc: t("cards.aboutDesc"),
-      to: "#",
+      to: "/about",
     },
   ];
 
@@ -36,7 +36,7 @@ export default function SectionCards() {
             <span className="text-[color:var(--brown)]">→</span>
           </div>
           <p className="mt-2 text-sm text-[color:var(--black-olive)]/70">{c.desc}</p>
-          <div className="mt-4 h-[2px] w-12 bg-[color:var(--ash-gray1)]/60 transition-all group-hover:w-20" />
+          <div className="mt-4 h-[2px] w-12 bg-[color:var(--ash-gray1)]/80 transition-all group-hover:w-20" />
         </Link>
       ))}
     </div>

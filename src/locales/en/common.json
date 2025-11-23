@@ -26,5 +26,25 @@
     "galleryDesc": "Sketches, snapshots, material collection.",
     "aboutTitle": "About",
     "aboutDesc": "What is CoStructure? Concept, tools, goals."
-  }
+  },
+  "map": {
+    "legendTitle": "Legend",
+    "infoBoxTitle": "Info",
+    "infoBoxContent": "Welcome to CoStructure! Explore the interactive map with selected urban places. Click on the markers to get more information."
+  },
+  "about": {
+    "projectDescription": "<p>Berlin’s industrial heritage shapes entire neighborhoods—old breweries, production halls and former factories. These buildings are impressive but often feel inaccessible: monumental, dark, isolated or disconnected from daily life. Historically, they were almost exclusively designed, built and narrated by men. Women appeared primarily as workers, yet their contributions rarely entered official records.</p><p>This project responds to that imbalance. A pavilion creates an open, accessible meeting point right next to historic industrial sites. It is visible, safe and invites visitors to re-discover industrial heritage from a more inclusive perspective. An interactive map accompanies the pavilion, showing locations, histories and often overlooked narratives. Together, they form a digital–physical project that reframes industrial heritage.</p>",
+
+  "relevance": "<p>Industrial heritage is a significant part of Berlin’s identity, yet it reflects a predominantly male perspective—architecturally, historically and culturally. Women, queer people and marginalized groups are barely represented. Many industrial areas remain functional, rough and unsafe at night, and rarely function as comfortable public spaces.</p><p>Why is this relevant? Urban spaces are never neutral. They signal belonging or exclusion. Women's contributions to industrial history remain largely invisible. Industrial zones often act as unsafe spaces. And adaptive reuse projects still rarely integrate gender-sensitive planning. The pavilion and the map introduce new access, visibility and perspectives into these neglected spaces.</p>",
+
+  "currentStatus": "<p>The digital map already showcases selected industrial heritage sites and links them to historical context. Filters, time views and story elements make the content accessible and engaging.</p><p>In parallel, the pavilion concept is being developed: a lightweight, modular structure focused on openness, visibility and inclusive design. Next steps include selecting a reference location, refining materials and form, and integrating personal stories and perspectives.</p>",
+
+  "benefits": "<p><strong>For the urban environment:</strong></p><p>- Activation of neglected or unsafe spaces<br/>- Improved visibility and sense of safety<br/>- Low-threshold public meeting point<br/>- Renewed appreciation for historic buildings</p><p><strong>For society:</strong></p><p>- Recognition of women's historical contributions<br/>- Awareness for gender-sensitive urban planning<br/>- Strengthened social inclusion<br/>- Public space accessible to all</p><p><strong>For visitors:</strong></p><p>- Easy access to knowledge<br/>- A safe, open place to stay<br/>- Space for exhibitions, workshops and encounters<br/>- A visible statement that cities belong to everyone</p>",
+
+  "implementation": "<p>The implementation consists of two complementary components:</p><p><strong>1. The Pavilion:</strong><br/>- modular, lightweight and adaptable<br/>- open structure with clear sightlines and lighting<br/>- materials referencing industrial aesthetics<br/>- accessible and safe<br/>- space for information, exhibitions and interaction</p><p><strong>2. The Digital Map:</strong><br/>- shows industrial heritage locations<br/>- visualizes historical and gender-related information<br/>- filterable by time period, theme and usage<br/>- easy to expand and maintain<br/>- links digital knowledge with physical urban space</p>",
+
+  "knowledgeTransfer": "<p>The pavilion functions as an accessible learning space. It conveys knowledge in a low-threshold, approachable way—not as a museum, but as a shared public setting.</p><p>Content includes:<br/>- history of Berlin’s industrial heritage<br/>- contributions of women and marginalized groups<br/>- basics of gender-sensitive urban planning<br/>- stories of visible and invisible labor<br/>- spatial perception and safety<br/>- local community perspectives</p>",
+
+  "stories": "<p>Stories are at the heart of this project. They reveal how many perspectives are missing from industrial heritage.</p><p>They include:<br/>- women who kept production running during wartime<br/>- workers whose contributions were never documented<br/>- female everyday experiences around industrial districts<br/>- voices from neighboring communities<br/>- contemporary perceptions of industrial sites as unsafe or inspiring<br/>- examples of inclusive and missed adaptive reuse</p><p>These narratives highlight what industrial heritage often masks: that these places were full of life—and can be again.</p>"
+ }
 }
