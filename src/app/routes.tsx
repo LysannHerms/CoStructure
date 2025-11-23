@@ -10,8 +10,9 @@ export const router = createBrowserRouter([
     path: "/",
     element: <App />,          // Parent-Route: liefert Header/Footer/Layout + <Outlet/>
     children: [
-      { index: true, element: <Home /> }, // Child-Route: "/" → Home, landet im <Outlet/> von App
+      { index: true, element: <Home/> }, // Child-Route: "/" → Home, landet im <Outlet/> von App
       { path: "map", element: <Map/> },
+    
       //{ path: "project", element: <ProjectPage /> },
       //{ path: "stories", element: <StoriesPage /> },
       //{ path: "takePart", element: <takePartPage /> },

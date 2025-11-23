@@ -9,7 +9,7 @@ export default function Hero() {
       {/*Überschrift und Untertitel*/}
       <div className="relative px-6 py-10 md:px-10 md:py-14">
         <div className="max-w-2xl">
-          <h1 className="text-3xl md:text-8xl font-bold leading-tight text-[color:var(--orange-pantone)] text-shadow-[0_0_42px] text-shadow-[color:var(--yellow-pantone)] ">
+          <h1 className="text-3xl md:text-8xl font-bold leading-tight text-[color:var(--orange-pantone)] ">
             CoStructure
           </h1>
           <p className="mt-3 text-[color:var(--black-olive)]/75">

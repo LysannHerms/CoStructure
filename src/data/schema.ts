@@ -7,6 +7,7 @@ export type Place = {
   address?: string;
   lat: number;
   lng: number;
+  status: number;
   yearBuilt?: number;
   architect?: string;
   previousUse?: string;       // „frühere Nutzung“
