@@ -7,7 +7,6 @@ const AboutPage: React.FC = () => {
 
   return (
     <div className="relative min-h-screen w-full z-5  text-slate-50">
-      {/* Hintergrund: Marker als Platzhalter */}
       <div className="pointer-events-none fixed inset-0 flex mb-100 items-center justify-center">
   <img
     src="/img/Logo_Ind_raw_braun.svg"
@@ -15,9 +14,6 @@ const AboutPage: React.FC = () => {
     className="max-w-none w-full h-auto"
   />
 </div>
-
-      {/* Dark Overlay, damit der Text gut lesbar bleibt */}
-
 
       {/* Inhalt */}
       <main className="relative z-10 flex flex-col items-center px-4 py-16 lg:py-24">
@@ -34,8 +30,9 @@ const AboutPage: React.FC = () => {
           </p>
         </header>
 
-        {/* Cards */}
+         {/* Container-Cards */}  
         <section className="w-full max-w-4xl flex flex-col gap-8">
+        {/* Cards */}    
           <AboutCard title={t("about.projectDescription_title", "Projektbeschreibung")}>
             <div
               dangerouslySetInnerHTML={{
