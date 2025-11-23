@@ -1,93 +1,87 @@
+// src/features/map/Toolbar.tsx
 import type { FilterState } from "./filterTypes";
+import FilterDropdown from "./FilterDropdown";
+
 type Props = {
   state: FilterState;
   onChange: (next: FilterState) => void;
 };
 
-
 export default function Toolbar({ state, onChange }: Props) {
   return (
-    <div className="cs-fixed cs-left-4 cs-top-4 cs-z-[600] cs-flex cs-w-[min(92vw,680px)] cs-flex-wrap cs-items-end cs-gap-2 cs-rounded-2xl cs-border cs-bg-white cs-p-3 cs-shadow">
+    <div className="fixed left-4 top-4 z-[600] flex w-[min(92vw,)] flex-wrap items-end gap-2 rounded-2xl bg-[color:var(--battleship-gray)]/60 backdrop-blur-sm shadow-sm p-3 shadow">
       {/* Suche */}
-      <label className="cs-flex cs-flex-col">
-        <span className="cs-text-xs cs-text-gray-600">Suche</span>
+      <label className="flex flex-col">
+        <span className="text-sm text-gray-600">Suche</span>
         <input
-          className="cs-h-9 cs-w-[200px] cs-rounded cs-border cs-px-3"
+          className="h-9 w-[200px] rounded px-3 bg-white/50  shadow-sm"
           placeholder="Name / Adresse …"
           value={state.query}
           onChange={(e) => onChange({ ...state, query: e.target.value })}
         />
       </label>
-      
-      {/* Leerstand */}
-      <label className="cs-flex cs-flex-col">
-        <span className="cs-text-xs cs-text-gray-600">Leerstand</span>
-        <select
-          className="cs-h-9 cs-rounded cs-border cs-px-3"
-          value={String(state.vacant)}
-          onChange={(e) => {
-            const v = e.target.value;
-            onChange({
-              ...state,
-              vacant: v === "all" ? "all" : v === "true",
-            });
-          }}
-        >
-          <option value="all">Alle</option>
-          <option value="true">Ja</option>
-          <option value="false">Nein</option>
-        </select>
-      </label>
 
-      {/* Umnutzung */}
-      <label className="cs-flex cs-flex-col">
-        <span className="cs-text-xs cs-text-gray-600">Umnutzung</span>
-        <select
-          className="cs-h-9 cs-rounded cs-border cs-px-3"
-          value={state.reuse}
-          onChange={(e) =>
-            onChange({
-              ...state,
-              reuse: e.target.value as FilterState["reuse"],
-            })
-          }
-        >
-          <option value="all">Alle</option>
-          <option value="kultur">Kultur</option>
-          <option value="wohnen">Wohnen</option>
-          <option value="buero">Büro</option>
-          <option value="bildung">Bildung</option>
-          <option value="gewerbe">Gewerbe</option>
-          <option value="gastronomie">Gastronomie</option>
-          <option value="sonstiges">Sonstiges</option>
-        </select>
-      </label>
+      {/* Leerstand – Custom Dropdown */}
+      <FilterDropdown
+        label="Leerstand"
+        value={String(state.vacant)}
+        onChange={(v) =>
+          onChange({
+            ...state,
+            vacant: v === "all" ? "all" : v === "true",
+          })
+        }
+        options={[
+          { value: "all", label: "Alle" },
+          { value: "true", label: "Ja" },
+          { value: "false", label: "Nein" },
+        ]}
+      />
 
-      {/* Status */}
-      <label className="cs-flex cs-flex-col">
-        <span className="cs-text-xs cs-text-gray-600">Status</span>
-        <select
-          className="cs-h-9 cs-rounded cs-border cs-px-3"
-          value={String(state.status)}
-          onChange={(e) => {
-            const v = e.target.value;
-            onChange({
-              ...state,
-              status: v === "all" ? "all" : (Number(v) as 1 | 2 | 3 | 4),
-            });
-          }}
-        >
-          <option value="all">Alle</option>
-          <option value="1">Realisiert</option>
-          <option value="2">Temporär</option>
-          <option value="3">In Planung</option>
-          <option value="4">Nicht in Planung</option>
-        </select>
-      </label>
+      {/* Umnutzung – Custom Dropdown */}
+      <FilterDropdown
+        label="Umnutzung"
+        value={state.reuse}
+        onChange={(v) =>
+          onChange({
+            ...state,
+            reuse: v as FilterState["reuse"],
+          })
+        }
+        options={[
+          { value: "all", label: "Alle" },
+          { value: "kultur", label: "Kultur" },
+          { value: "wohnen", label: "Wohnen" },
+          { value: "buero", label: "Büro" },
+          { value: "bildung", label: "Bildung" },
+          { value: "gewerbe", label: "Gewerbe" },
+          { value: "gastronomie", label: "Gastronomie" },
+          { value: "sonstiges", label: "Sonstiges" },
+        ]}
+      />
+
+      {/* Status – Custom Dropdown */}
+      <FilterDropdown
+        label="Status"
+        value={String(state.status)}
+        onChange={(v) =>
+          onChange({
+            ...state,
+            status: v === "all" ? "all" : (Number(v) as 1 | 2 | 3 | 4),
+          })
+        }
+        options={[
+          { value: "all", label: "Alle" },
+          { value: "1", label: "Realisiert" },
+          { value: "2", label: "Temporär" },
+          { value: "3", label: "In Planung" },
+          { value: "4", label: "Nicht in Planung" },
+        ]}
+      />
 
       {/* Reset */}
       <button
-        className="cs-ml-auto cs-h-9 cs-rounded cs-border cs-px-3 hover:cs-bg-gray-50"
+        className="h-9 rounded px-3 bg-white/50 shadow-sm hover:bg-[color:var(--ash-gray3)] ml-auto text-sm"
         onClick={() =>
           onChange({
             query: "",

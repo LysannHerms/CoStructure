@@ -3,6 +3,10 @@ import React, { useEffect, useRef, useMemo, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { Link } from "react-router-dom";
+import Legend from "../../features/map/Legende";
+import InfoBox from "../../features/map/InfoBox";
+
+
 
 import { PLACES } from "../../data/places";
 import { applyFilters } from "../../features/map/applyFilters";
@@ -49,6 +53,7 @@ const MapPage: React.FC = () => {
 
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
   const filtered = useMemo(() => applyFilters(PLACES, filters), [filters]);
+  const [showInfo, setShowInfo] = useState(true);
 
   // 🗺️ Map initialisieren
   useEffect(() => {
@@ -80,9 +85,10 @@ const MapPage: React.FC = () => {
 
     L.control
       .zoom({
-        position: "bottomright",
+        position: "topright",
       })
       .addTo(map);
+    
 
     markersLayerRef.current = L.layerGroup().addTo(map);
     mapRef.current = map;
@@ -154,21 +160,19 @@ const MapPage: React.FC = () => {
 
       {/* Zurück-Button – unten links, unabhängig von der Toolbar */}
       <Link
-        to="/"
-        style={{
-          position: "fixed",
-          left: 16,
-          bottom: 16,
-          zIndex: 2,
-          backgroundColor: "rgba(255,255,255,0.9)",
-          padding: "0.4rem 0.8rem",
-          borderRadius: 9999,
-          boxShadow: "0 2px 6px rgba(0,0,0,0.15)",
-          fontSize: "0.9rem",
-        }}
-      >
-        ← Zur Startseite
-      </Link>
+  to="/"
+  className="
+    fixed left-4 bottom-4 z-[1000]
+    bg-[color:var(--syracuse-red-orange)]/60 backdrop-blur-md shadow-lg text-[color:var(--anti-flash-white)]
+    rounded-full px-4 py-2
+    text-m shadow
+    hover:bg-[color:var(--syracuse-red-orange)]
+  "
+>
+  ← Zur Startseite
+</Link>
+<Legend />
+<InfoBox open={showInfo} onClose={() => setShowInfo(false)} />
     </>
   );
 };
