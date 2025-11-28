@@ -16,25 +16,25 @@ import { defaultFilters, type FilterState } from "../../features/map/filterTypes
 // 🔹 Icons je Status (1–4)
 const statusIconMap: Record<number, L.Icon> = {
   1: new L.Icon({
-    iconUrl: "/img/Logo_Ind_raw_orange.svg", // realisiert
+    iconUrl: "/img/Marker_1.svg", // realisiert
     iconSize: [28, 38],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   2: new L.Icon({
-    iconUrl: "/img/Logo_Ind_raw_gruen.svg", // temporär
+    iconUrl: "/img/Marker_2.svg", // temporär
     iconSize: [28, 38],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   3: new L.Icon({
-    iconUrl: "/img/Logo_Ind_raw_braun.svg", // in Planung
+    iconUrl: "/img/Marker_3.svg", // in Planung
     iconSize: [28, 38],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   4: new L.Icon({
-    iconUrl: "/img/Logo_Ind_raw_gruen.svg", // nicht in Planung (graue Variante derselben Datei)
+    iconUrl: "/img/Marker_4.svg", // nicht in Planung (graue Variante derselben Datei)
     iconSize: [28, 38],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],

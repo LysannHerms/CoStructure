@@ -6,8 +6,8 @@ const AboutPage: React.FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <div className="relative min-h-screen w-full z-5  text-slate-50">
-      <div className="pointer-events-none fixed inset-0 flex mb-100 items-center justify-center">
+    <div className="relative z-5 min-h-screen w-full text-slate-50">
+      <div className="pointer-events-none fixed inset-0 flex mb-85 items-center justify-center">
   <img
     src="/img/Logo_Ind_raw_braun.svg"
     alt=""
@@ -19,10 +19,10 @@ const AboutPage: React.FC = () => {
       <main className="relative z-10 flex flex-col items-center px-4 py-16 lg:py-24">
         {/* Header / Intro */}
         <header className="w-full max-w-4xl mb-10 text-center">
-          <h1 className="text-3xl lg:text-4xl font-geist font-semibold tracking-tight">
-            {t("about.title", "About the Pavilion Project")}
+          <h1 className="text-4xl text-[color:var(--orange-pantone)] lg:text-4xl  font-semibold tracking-tight">
+            {t("about.title", "About CoStructure - CUBE")}
           </h1>
-          <p className="mt-4 text-sm lg:text-base text-slate-200 font-geist">
+          <p className="mt-4 text-sm lg:text-base text-slate-200">
             {t(
               "about.intro",
               "Industrial heritage reimagined through a gender-sensitive lens."

@@ -20,7 +20,7 @@ export default function App() {
         className={
           isMapRoute || isAboutRoute
             ? "m-0 p-0" // Map: kein Padding, volle Fläche
-            : "mx-auto max-w-5xl px-4 py-8"
+            : "mx-auto max-w-5xl px-4 "
         }
       >
         <Outlet />

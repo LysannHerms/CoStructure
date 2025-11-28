@@ -2,21 +2,48 @@
   "brand": "CoStructure",
   "nav": { "home": "Start", "map": "Karte", "sections": "Bereiche" },
   "hero": {
-    "title": "CoStructure",
-    "subtitle": "Minimaler Architektur-Prototyp: urbane Orte, klare Formen, ruhige Flächen.",
-    "ctaExplore": "Karte erkunden",
-    "ctaSections": "Bereiche ansehen"
+    "kicker": "CoStructure · Urbane Prototypen",
+    "titlePrefix": "CoStructure",
+    "titleHighlight": "modulare Cubes für dieIndustriekultur",
+    "lead": "CoStructure entwickelt modulare, öffentlich zugängliche Cubes, die Industriekultur erfahrbar machen, niedrigschwellige Lernangebote schaffen und Räume für Begegnung, Kreativität und technische Exploration bieten. Ziel des Projekts ist es, Industriekultur sichtbarer, zugänglicher und vielfältiger zu machen sowie Menschen jeden Alters zu ermutigen, neue Perspektiven in Technik, Gestaltung und Stadtraum zu entdecken als auch eigene Wege in urbane Zukunftsfelder zu finden.",
+    "ctaPrimary": "Cubes auf der Karte entdecken",
+    "ctaSecondary": "Mehr über das Projekt"
   },
   "project": {
-    "title": "Projekt",
-    "subtitle": "Kurz & klar",
-    "intro": "CoStructure ist ein minimalistisches Frontend-Experiment mit architektonischem Look."
+    "title": "Was ist CoStructure?",
+    "subtitle": "Kleine Räume, die vergessene Industrieorte wieder zugänglich machen.",
+    "imageAlt": "CoStructure Cube an einem Industrieort in Berlin",
+    "intro": "CoStructure verwandelt ausgewählte Industriekulissen – zum Beispiel Gaswerke, Hafenanlagen oder Bahnareale – in kleine, offene Räume. Die Cubes sind halb Möbel, halb Mini-Pavillon und passen sich an unterschiedliche Orte an.",
+    "body": "Sie sollen einfache, niedrigschwellige Aufenthaltsorte sein: ein trockener Platz zum Hinsetzen, ein ruhiger Winkel zum Durchatmen, ein Punkt zum Beobachten, Spielen oder Kaffeetrinken. Ohne Eintritt, ohne Konsumzwang – und offen für Kinder, Erwachsene und alle dazwischen.",
+    "forWhomLabel": "Für wen?",
+    "forWhom": "Für Nachbarschaften, Schulklassen, Spaziergänger:innen, Menschen mit Kindern, Menschen, die eine Pause brauchen – und alle, die neugierig sind auf Stadt abseits der Einkaufsstraßen.",
+    "whereLabel": "Wo?",
+    "where": "An Orten mit Geschichte: ehemalige Gaswerke, Bahnausbesserungswerke, Speicher, Höfe. Die Cubes machen diese Kulissen im Alltag erfahrbar, ohne sie zu überinszenieren.",
+    "ctaMap": "Standorte auf der Karte ansehen",
+    "ctaMore": "Mehr über Idee & Prozess"
+  },
+  "status": {
+    "title": "Was passiert gerade?",
+    "subtitle": "Ein kurzer Überblick über Events, entstehende Cubes und Mitmach-Möglichkeiten.",
+    "eventsLabel": "Events",
+    "eventsTitle": "Keine aktuellen Veranstaltungen",
+    "eventsText": "Sobald Walks, Workshops oder Nachbarschaftstreffen geplant sind, tauchen sie hier auf.",
+    "cubesLabel": "Neue Cubes",
+    "cubesTitle": "Erste Standorte in Planung",
+    "cubesText": "Geplante Orte sind unter anderem Gaswerksareale, Hafenflächen und Bahnstandorte. Noch befinden wir uns in Entwurf und Abstimmung.",
+    "joinLabel": "Mitmachen",
+    "joinTitle": "Ideen aus der Nachbarschaft",
+    "joinText": "Aktuell sammeln wir mögliche Orte und Nutzungen. In Zukunft kannst du hier Vorschläge einreichen oder Rückmeldungen geben."
   },
   "footer": "© {{year}} CoStructure",
   
   "sketch": {
-    "title": "Concept sketch",
-    "subtitle": "Geometrische Volumen, Raster, ruhige Kontraste"
+    "title": "Wie fühlt sich ein Cube an?",
+    "lead": "Innen ruhig und klar, außen die Stadt mit ihren industriellen Spuren.",
+    "imageAlt": "Innen- oder Außenansicht eines CoStructure Cubes neben Industriearchitektur",
+    "captionTitle": "Ein ruhiger Raum in rauer Umgebung",
+    "subtitle": "Draußen Backstein, Schienen, Rohrleitungen – drinnen warmes Licht, klare Flächen und genug Platz, um zu sitzen, zu kritzeln oder einfach nur zu schauen.",
+    "body": "Die Cubes greifen die Geometrie der Industrie auf, ohne sie zu kopieren: Raster, Kanten, sichtbare Fugen. Sie wirken robust, aber einladend – wie ein temporärer Ankerpunkt in einer sonst sehr lauten Stadt."
   },
   "cards": {
     "cardsHeadline": "Abschnitte",
@@ -24,8 +51,14 @@
     "mapDesc": "Interaktive Stadtkarte mit wenigen, aber pointierten Orten.",
     "galleryTitle": "Galerie",
     "galleryDesc": "Skizzen, Schnappschüsse, Materialsammlung.",
-    "aboutTitle": "Über",
-    "aboutDesc": "Was ist CoStructure? Ansatz, Tools, Ziele."
+    "aboutTitle": "Über das Projekt",
+    "aboutDesc": "Was ist CoStructure? Ansatz, Tools, Ziele.",
+    "eventsTitle": "Veranstaltungen",
+    "eventsDesc": "Veranstaltungen rund um Genderperspektiven in Industriekultur und Stadt.",
+    "newsTitle": "Neuigkeiten",
+    "newsDesc": "Updates zum Projekt und neuen Funktionen.",
+    "storiesTitle": "Geschichten",
+    "storiesDesc": "Geschichten zu Orten, Menschen und Industriekultur."
   },
   "map": {
     "legendTitle": "Legende",
@@ -33,12 +66,12 @@
     "infoBoxContent": "Willkommen bei CoStructure! Erkunden Sie die interaktive Karte mit ausgewählten urbanen Orten. Klicken Sie auf die Marker, um weitere Informationen zu erhalten."
   },
   "about": {
-    "projectDescription": "<p>Die Industriekultur Berlins prägt ganze Stadtteile – von alten Brauereien über Produktionshallen bis zu ehemaligen Werken. Viele dieser Gebäude wirken eindrucksvoll, aber auch abweisend: monumental, dunkel, unzugänglich oder isoliert. Historisch wurden sie fast ausschließlich von Männern geplant, gebaut und erzählt. Frauen tauchten in dieser Geschichte vor allem als Arbeiterinnen auf – ihre Beiträge wurden jedoch selten dokumentiert.</p><p>Dieses Projekt setzt genau hier an. Ein Pavillon schafft einen offenen, zugänglichen Begegnungsort direkt neben historischen Industriegebäuden. Er ist sichtbar, sicher und lädt Besucher*innen ein, Industriekultur aus einer erweiterten Perspektive neu zu entdecken. Parallel dazu zeigt eine interaktive Karte Standorte, Hintergründe und oft übersehene Geschichten. Gemeinsam entsteht ein digitales und physisches Projekt, das Industriekultur inklusiver macht.</p>",
-    "relevance": "<p>Die Industriekultur ist ein zentraler Teil der Berliner Geschichte – jedoch ein Teil, der überwiegend aus männlicher Sicht geprägt wurde. Frauen, queere Menschen und andere marginalisierte Gruppen kommen darin kaum vor. Auch heute wirken viele Industrieareale funktional, rau und nachts unsicher – und selten wie Aufenthaltsorte, die allen Menschen gerecht werden.</p><p>Warum ist das relevant? Räume sind nie neutral. Sie vermitteln Zugehörigkeit oder Ausschluss. Frauen und marginalisierte Gruppen sind in der Industriegeschichte unsichtbar geblieben. Industrieareale zählen häufig zu unsicheren Räumen. Und bei der Umnutzung historischer Gebäude wird eine Genderperspektive noch selten aktiv mitgedacht. Der Pavillon und die Karte setzen hier an und öffnen diese Räume neu.</p>",
-    "currentStatus": "<p>Die digitale Karte zeigt bereits ausgewählte Standorte industrieller Kulturbauten und verbindet sie mit historischen Kontexten. Filter, Zeitfenster und Story-Elemente machen die Inhalte zugänglich und interaktiv.</p><p>Parallel wird das Konzept für den Pavillon entwickelt: ein leichtes, modulares Bauwerk, das Offenheit, Sichtbarkeit und Inklusion in den Vordergrund stellt. Nächste Schritte sind die Konkretisierung des Materials, die Auswahl eines Beispielstandorts sowie die Integration persönlicher Geschichten.</p>",
-    "benefits": "<p><strong>Für den Stadtraum:</strong></p><p>- Aktivierung vernachlässigter oder unsicherer Orte<br/>- Mehr Aufenthaltsqualität und Sichtbarkeit<br/>- Niedrigschwelliger Treffpunkt<br/>- Neue Aufmerksamkeit für historische Gebäude</p><p><strong>Für die Gesellschaft:</strong></p><p>- Sichtbarkeit weiblicher Arbeit und Geschichte<br/>- Bewusstsein für gendergerechte Stadtplanung<br/>- Stärkung sozialer Teilhabe<br/>- Öffentlicher Raum für alle</p><p><strong>Für Besucher*innen:</strong></p><p>- Leichter Zugang zu Wissen<br/>- Sicherer, offener Aufenthaltsort<br/>- Raum für Ausstellungen, Workshops und Begegnung<br/>- Ein Zeichen dafür, dass Stadt allen gehört</p>",
-    "implementation": "<p>Die Umsetzung besteht aus zwei Teilen, die zusammen ein hybrides Konzept bilden:</p><p><strong>1. Der Pavillon:</strong><br/>- modular, leicht und anpassbar<br/>- offene Struktur mit guten Sichtachsen und Beleuchtung<br/>- Materialien, die an Industriekultur erinnern<br/>- barrierefrei und sicher<br/>- Platz für Infos, Ausstellungen und Begegnung</p><p><strong>2. Die digitale Karte:</strong><br/>- zeigt Standorte industrieller Kulturbauten<br/>- verbindet historische und genderbezogene Inhalte<br/>- bietet Filter nach Zeit, Nutzung und Themen<br/>- kann kontinuierlich erweitert werden<br/>- verknüpft digitale und reale Stadterlebnisse</p>",
-    "knowledgeTransfer": "<p>Der Pavillon ist ein offener Lern- und Begegnungsort. Er vermittelt Wissen niedrigschwellig und zugänglich – nicht museal, sondern alltagsnah.</p><p>Inhalte umfassen:<br/>- Geschichte der Berliner Industriekultur<br/>- Rolle von Frauen und marginalisierten Gruppen<br/>- Grundlagen gendergerechter Stadtplanung<br/>- Geschichten sichtbarer und unsichtbarer Arbeit<br/>- Wahrnehmung von Sicherheit und Raum<br/>- Perspektiven der Nachbarschaft</p>",
+    "projectDescription": "<p>Berlin ist von Industrie geprägt. Vielerorts lassen sich auch heute noch abseits von Gewerbegebieten ehemalige Industriebauten finden. Viele dieser Gebäude wirken eindrucksvoll, aber auch abweisend. Sie sind Monumental, dunkel und zugänglich oder isoliert. Historisch wurden sie fast ausschließlich von Männern geplant und gebaut. Frauen tauchen in dieser Geschichte vor allem als Arbeiterinnen auf. Und trotzdem werden heute den Architekten und Bauherren erinnert, statt den Arbeitsstunden, Schweiß und Kraft- die Frauen dieser Orts geleistet haben.</p> <br/> <p> An dieser Stelle setzte das Projekt CoStructure ein Cube für alle an. Ein offener, zugägnlicher Begegnungsort dirket neben historischen Industiregebäuden. Er lädt Besucher*innen ein, Industriekultur aus einer erweiterten Perspektive neu zu entdecken. Parallel dazu zeigt eine interaktive Karte Standorte, Hintergründe und oft übersehene Geschichten. Gemeinsam entsteht ein digitales und physisches Projekt, das Industriekultur inklusiver machen.</p>",
+    "relevance": "<p>Die Industriekultur ist ein zentraler Teil der Berliner Geschichte – jedoch ein Teil, der überwiegend aus männlicher Sicht geprägt wurde. Frauen, queere Menschen und andere marginalisierte Gruppen kommen darin kaum vor. Auch heute wirken viele Industrieareale funktional, rau und nachts unsicher – und selten wie Aufenthaltsorte, die allen Menschen gerecht werden.</p><p>Warum ist das relevant? Räume sind nie neutral. Sie vermitteln Zugehörigkeit oder Ausschluss. Frauen und marginalisierte Gruppen sind in der Industriegeschichte unsichtbar geblieben. Industrieareale zählen häufig zu unsicheren Räumen. Und bei der Umnutzung historischer Gebäude wird eine Genderperspektive noch selten aktiv mitgedacht. Der Cube und die Karte setzen hier an und öffnen diese Räume neu.</p>",
+    "currentStatus": "<p>Die digitale Karte zeigt bereits ausgewählte Standorte industrieller Kulturbauten und verbindet sie mit historischen Kontexten. Filter, Zeitfenster und Story-Elemente machen die Inhalte zugänglich und interaktiv.</p><p>Parallel wird das Konzept für den Cube entwickelt: ein leichtes, modulares Bauwerk, das Offenheit, Sichtbarkeit und Inklusion in den Vordergrund stellt. Nächste Schritte sind die Konkretisierung des Materials, die Auswahl eines Beispielstandorts sowie die Integration persönlicher Geschichten.</p>",
+    "benefits": "<p><strong>Für den Stadtraum:</strong></p><p> • Aktivierung vernachlässigter oder unsicherer Orte<br/> • Mehr Aufenthaltsqualität und Sichtbarkeit<br/> • Niedrigschwelliger Treffpunkt<br/> • Neue Aufmerksamkeit für historische Gebäude</p><p><strong>Für die Gesellschaft:</strong></p><p> • Sichtbarkeit weiblicher Arbeit und Geschichte<br/> • Bewusstsein für gendergerechte Stadtplanung<br/> • Stärkung sozialer Teilhabe<br/> • Öffentlicher Raum für alle</p><p><strong>Für Besucher*innen:</strong></p><p> • Leichter Zugang zu Wissen<br/> • Sicherer, offener Aufenthaltsort<br/> • Raum für Ausstellungen, Workshops und Begegnung<br/> • Ein Zeichen dafür, dass Stadt allen gehört</p>",
+    "implementation": "<p>Die Umsetzung besteht aus zwei Teilen, die zusammen ein hybrides Konzept bilden:</p><p><strong>1. Der Cube:</strong><br/> • modular, leicht und anpassbar<br/> • offene Struktur mit guten Sichtachsen und Beleuchtung<br/> • Materialien, die an Industriekultur erinnern<br/> • barrierefrei und sicher<br/> • Platz für Infos, Ausstellungen und Begegnung</p><p><strong>2. Die digitale Karte:</strong><br/> • zeigt Standorte industrieller Kulturbauten<br/> • verbindet historische und genderbezogene Inhalte<br/> • bietet Filter nach Zeit, Nutzung und Themen<br/> • kann kontinuierlich erweitert werden<br/> • verknüpft digitale und reale Stadterlebnisse</p>",
+    "knowledgeTransfer": "<p>Der Cube ist ein offener Lern- und Begegnungsort. Er vermittelt Wissen niedrigschwellig und zugänglich – nicht museal, sondern alltagsnah.</p><p>Inhalte umfassen:<br/>- Geschichte der Berliner Industriekultur<br/>- Rolle von Frauen und marginalisierten Gruppen<br/>- Grundlagen gendergerechter Stadtplanung<br/>- Geschichten sichtbarer und unsichtbarer Arbeit<br/>- Wahrnehmung von Sicherheit und Raum<br/>- Perspektiven der Nachbarschaft</p>",
     "stories": "<p>Geschichten stehen im Mittelpunkt dieses Projekts. Sie zeigen, wie viele Perspektiven in Industriekultur bislang fehlen.</p><p>Dazu gehören:<br/>- Arbeiterinnen, die Fabriken in Kriegszeiten am Laufen hielten<br/>- Frauen, deren Arbeit niemals dokumentiert wurde<br/>- weibliche Alltags- und Stadterfahrungen rund um Industrieareale<br/>- Stimmen aus der Nachbarschaft<br/>- heutige Wahrnehmung von Industriebrachen als faszinierend oder unsicher<br/>- Beispiele gelungener und misslungener Umnutzung</p><p>Diese Erzählungen machen sichtbar, was Industriekultur oft verbirgt: dass diese Orte voller Leben waren – und wieder sein können.</p>"
 }
 }
