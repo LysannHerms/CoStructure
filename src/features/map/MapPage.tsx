@@ -1,4 +1,3 @@
-// src/features/map/MapPage.tsx
 import React, { useEffect, useRef, useMemo, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -6,36 +5,34 @@ import { Link } from "react-router-dom";
 import Legend from "../../features/map/Legende";
 import InfoBox from "../../features/map/InfoBox";
 
-
-
 import { PLACES } from "../../data/places";
 import { applyFilters } from "../../features/map/applyFilters";
 import Toolbar from "../../features/map/Toolbar";
 import { defaultFilters, type FilterState } from "../../features/map/filterTypes";
 
-// 🔹 Icons je Status (1–4)
+//Icons je Status (1–4)
 const statusIconMap: Record<number, L.Icon> = {
   1: new L.Icon({
     iconUrl: "/img/Marker_1.svg", // realisiert
-    iconSize: [28, 38],
+    iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   2: new L.Icon({
     iconUrl: "/img/Marker_2.svg", // temporär
-    iconSize: [28, 38],
+    iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   3: new L.Icon({
     iconUrl: "/img/Marker_3.svg", // in Planung
-    iconSize: [28, 38],
+    iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
   4: new L.Icon({
-    iconUrl: "/img/Marker_4.svg", // nicht in Planung (graue Variante derselben Datei)
-    iconSize: [28, 38],
+    iconUrl: "/img/Marker_4.svg", // nicht in Planung 
+    iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],
   }),
@@ -55,7 +52,7 @@ const MapPage: React.FC = () => {
   const filtered = useMemo(() => applyFilters(PLACES, filters), [filters]);
   const [showInfo, setShowInfo] = useState(true);
 
-  // 🗺️ Map initialisieren
+  // Map 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
@@ -74,13 +71,12 @@ const MapPage: React.FC = () => {
     L.tileLayer(
       "https://api.mapbox.com/styles/v1/lysann146/cmh36xg3v00da01sb85y48ln3/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibHlzYW5uMTQ2IiwiYSI6ImNtaDNiMXg4ajE3djEwOHFwNmRqbDRvYTQifQ.E8l_6QP9OtkM-pVHRhTqbA",
       {
-        attribution:
-          'Map data &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
+        attribution: 'Map data &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 19,
         tileSize: 512,
         zoomOffset: -1,
         noWrap: true,
-      }
+      },
     ).addTo(map);
 
     L.control
@@ -88,7 +84,6 @@ const MapPage: React.FC = () => {
         position: "topright",
       })
       .addTo(map);
-    
 
     markersLayerRef.current = L.layerGroup().addTo(map);
     mapRef.current = map;
@@ -100,7 +95,7 @@ const MapPage: React.FC = () => {
     };
   }, []);
 
-  // 📍 Marker rendern, wenn Filter sich ändern
+  // Marker 
   useEffect(() => {
     const map = mapRef.current;
     const layer = markersLayerRef.current;
@@ -114,39 +109,35 @@ const MapPage: React.FC = () => {
       }).addTo(layer);
 
       marker.bindPopup(
-        `<div class="bg-[color:var(--anti-flash-white)] text-sm">
-          <div class="font-semibold">${p.name}</div>
-          ${p.address ? `<div class="text-gray-600">${p.address}</div>` : ""}
+        `<div class="font-semibold">${p.name}</div>
+          ${p.address ? `<div>${p.address}</div>` : ""}
           ${p.yearBuilt ? `<div>Baujahr: ${p.yearBuilt}</div>` : ""}
           ${p.architect ? `<div>Architekt: ${p.architect}</div>` : ""}
           <div>${p.isVacant ? "Leerstand: Ja" : "Leerstand: Nein"}</div>
           ${p.notes ? `<div class="mt-1">${p.notes}</div>` : ""}
-        </div>`
+        </div>`,
       );
     });
 
     if (filtered.length) {
-      const bounds = L.latLngBounds(
-        filtered.map((p) => [p.lat, p.lng] as [number, number])
-      );
+      const bounds = L.latLngBounds(filtered.map((p) => [p.lat, p.lng] as [number, number]));
       map.fitBounds(bounds, { padding: [40, 40] });
     }
   }, [filtered]);
 
   return (
     <>
-      {/* Vollbild-Map */}
       <div
         id="map"
         ref={containerRef}
         style={{
           position: "fixed",
-          inset: 0,          // top:0, right:0, bottom:0, left:0
+          inset: 0, 
           zIndex: 1,
         }}
       />
 
-      {/* Toolbar – oben links fixiert */}
+      {/* Toolbar*/}
       <div
         style={{
           position: "fixed",
@@ -158,21 +149,21 @@ const MapPage: React.FC = () => {
         <Toolbar state={filters} onChange={setFilters} />
       </div>
 
-      {/* Zurück-Button – unten links, unabhängig von der Toolbar */}
+      {/* Zurück-Button */}
       <Link
-  to="/"
-  className="
+        to="/"
+        className="
     fixed left-4 bottom-4 z-[1000]
     bg-[color:var(--syracuse-red-orange)]/60 backdrop-blur-md shadow-lg text-[color:var(--anti-flash-white)]
     rounded-full px-4 py-2
     text-m shadow
     hover:bg-[color:var(--syracuse-red-orange)]
   "
->
-  ← Zur Startseite
-</Link>
-<Legend />
-<InfoBox open={showInfo} onClose={() => setShowInfo(false)} />
+      >
+        ← Zur Startseite
+      </Link>
+      <Legend />
+      <InfoBox open={showInfo} onClose={() => setShowInfo(false)} />
     </>
   );
 };

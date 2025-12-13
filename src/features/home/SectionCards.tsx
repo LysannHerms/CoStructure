@@ -29,7 +29,7 @@ export default function SectionCards() {
     {
       title: t("cards.eventsTitle"),
       desc: t("cards.eventsDesc"),
-      to: "#",
+      to: "/events",
       image: "/img/PH_4.png",
     },
     {
@@ -50,7 +50,7 @@ export default function SectionCards() {
     <Link
       key={c.title}
       to={c.to}
-      className="group/card relative flex h-56 w-full overflow-hidden rounded-2xl border border-[color:var(--ash-gray1)] bg-black/5 shadow-[0_10px_30px_rgba(0,0,0,0.04)] transition-transform transition-shadow hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] md:h-64"
+      className="group/card relative flex -4 h-56 w-full overflow-hidden rounded-2xl border border-[color:var(--ash-gray1)] bg-black/5 shadow-[0_10px_30px_rgba(0,0,0,0.04)] transition-transform transition-shadow hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] md:h-64"
     >
       <img
         src={c.image}
@@ -72,7 +72,7 @@ export default function SectionCards() {
   );
 
   return (
-    <div id="sections" className="flex flex-col gap-8 group h-full w-full">
+    <div id="sections" className="flex flex-col gap-8 py-4 group h-full w-full">
 
       {/* GRID 1 */}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">

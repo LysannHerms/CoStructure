@@ -38,18 +38,12 @@ const Legend: React.FC = () => {
         text-md
       "
     >
-      <span className="text-md font-semibold tracking-wide text-gray-100">
-        Legende
-      </span>
+      <span className="text-md font-semibold tracking-wide text-gray-100">Legende</span>
 
       <div className="flex flex-col gap-1">
         {LEGEND_ITEMS.map((item) => (
           <div key={item.status} className="flex items-center gap-2">
-            <img
-              src={item.iconUrl}
-              alt={item.label}
-              className="h-8 w-8 object-contain"
-            />
+            <img src={item.iconUrl} alt={item.label} className="h-8 w-8 object-contain" />
             <span className="text-md text-gray-50">{item.label}</span>
           </div>
         ))}

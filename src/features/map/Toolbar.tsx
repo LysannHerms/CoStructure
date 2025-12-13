@@ -12,7 +12,7 @@ export default function Toolbar({ state, onChange }: Props) {
     <div className="fixed left-4 top-4 z-[600] flex w-[min(92vw,)] flex-wrap items-end gap-2 rounded-2xl bg-[color:var(--battleship-gray)]/60 backdrop-blur-sm shadow-sm p-3 shadow">
       {/* Suche */}
       <label className="flex flex-col">
-        <span className="text-sm text-gray-600">Suche</span>
+        <span className="text-md text-white">Suche</span>
         <input
           className="h-9 w-[200px] rounded px-3 bg-white/50  shadow-sm"
           placeholder="Name / Adresse …"
@@ -81,7 +81,7 @@ export default function Toolbar({ state, onChange }: Props) {
 
       {/* Reset */}
       <button
-        className="h-9 rounded px-3 bg-white/50 shadow-sm hover:bg-[color:var(--ash-gray3)] ml-auto text-sm"
+        className="h-9 rounded px-3 bg-white/50 shadow-sm hover:bg-[color:var(--ash-gray3)] ml-auto text-white text-sm"
         onClick={() =>
           onChange({
             query: "",

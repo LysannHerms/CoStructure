@@ -1,84 +1,466 @@
 {
   "brand": "CoStructure",
-  "nav": { "home": "Home", "map": "Map", "sections": "Sections" },
+  "nav": { "home": "Home", "map": "Map", "sections": "Sections", "events": "Events",  "about": "About" },
+
   "hero": {
-    "kicker": "CoStructure · Urban prototypes",
-    "titlePrefix": "Quiet cubes at",
-    "titleHighlight": "former industrial sites",
-    "lead": "CoStructure places small walk-in cubes at gasworks, rail yards and storage buildings. They offer short pauses in the city – for reading, sketching, playing or simply being, without having to consume.",
-    "ctaPrimary": "Explore cubes on the map",
-    "ctaSecondary": "Learn more about the project"
+    "kicker": "Industrial heritage · Places of encounter · Knowledge transfer",
+    "titlePrefix": "CoStructure",
+    "titleHighlight": "modular cubes for industrial heritage",
+    "lead": "CoStructure develops modular, publicly accessible cubes that make industrial heritage tangible, create low-threshold learning opportunities and offer spaces for encounter, creativity and technical exploration. The project aims to make industrial heritage more visible, accessible and diverse – and to encourage people of all ages to discover new perspectives in technology, design and urban space, and to find their own paths into future urban fields.",
+    "ctaPrimary": "Explore the cubes on the map",
+    "ctaSecondary": "Learn more about the project",
+    "news": "Free workshops, talks, and school modules in public spaces – starting in fall 2026 in Berlin."
   },
-   "project": {
+
+  "project": {
     "title": "What is CoStructure?",
-    "subtitle": "Small spaces that reconnect people with hidden industrial sites.",
-    "imageAlt": "CoStructure cube at an industrial site in Berlin",
-    "intro": "CoStructure turns selected industrial backdrops – such as gasworks, harbour areas or railway sites – into small open spaces. The cubes are half furniture, half mini pavilion and adapt to different locations.",
-    "body": "They are meant to be simple, low-threshold places to stay: a dry spot to sit down, a quiet corner to breathe, a point to observe, play or drink a coffee. No entrance fee, no need to buy anything – and open to children, adults and everyone in between.",
+    "subtitle": "Spaces that connect past and future",
+    "imageAlt": "CoStructure Cube at an industrial site in Berlin",
+    "intro": "<p>CoStructure transforms places with industrial history into small, open spaces for curiosity and encounter. The cubes are flexible micro-spaces: part furniture, part meeting point, part learning environment. They reveal what often remains hidden within the buildings – stories, materials, ideas – and invite people to become part of them.</p></br><p>Here you can draw, build, experiment, observe, talk, listen, take part – without registration, without barriers. The cubes create islands in everyday life: for school classes and strolls, for neighbourhoods and spontaneous visits, for everyone who wants to experience the city differently.</p><p>No prior knowledge necessary</p>",
     "forWhomLabel": "For whom?",
-    "forWhom": "For neighbours, school classes, people on walks, people with kids, people who need a pause – and anyone curious about the city beyond shopping streets.",
+    "forWhom": "For neighbourhoods, school classes, people on walks, people with children, people who need a break – and anyone curious about the city beyond shopping streets.",
     "whereLabel": "Where?",
-    "where": "At places with history: former gasworks, railway workshops, storage buildings and yards. The cubes make these backdrops part of everyday experience again, without turning them into a spectacle.",
-    "ctaMap": "View locations on the map",
-    "ctaMore": "More about idea & process"
-  }, 
+    "where": "At places with history: gasworks, railway sites, factories, industrial grounds. The cubes make industrial backdrops tangible in everyday life – not as museums, but as living places that can be used again.",
+    "ctaMap": "Events & Activities",
+    "ctaMore": "Latest updates"
+  },
+
+  "why": {
+    "title": "Why CoStructure was created",
+    "hook": "Did you know that most industrial buildings were designed by men – not because they had better ideas, but because women were simply not allowed to study for decades? And did you know that the many women who kept factories, workshops and telecommunication offices running are barely mentioned in the official narratives of industrial heritage?",
+    "p1": "For over a hundred years, women were barely allowed to work as architects, engineers or technicians. Still, they achieved remarkable things: from inventions essential to everyday life to scientific discoveries like those of Marie Curie. Yet these stories are rarely told – and in urban space, they are almost invisible.",
+    "p2": "CoStructure steps in here: the cubes bring forgotten perspectives back into everyday life. They make industrial heritage visible not only as a façade but as a network of people and stories – from workers, tinkerers, researchers, neighbours. And they show girls and young women that technology, design and urban space are not closed clubs but fields they can shape naturally.",
+    "listIntro": "What the cubes make visible:",
+    "list1": "that behind brick façades there are people – not just machines.",
+    "list2": "that women have always played a role in industry, technology and urban design – even if they were rarely mentioned.",
+    "list3": "that children, young people and adults today can connect their own visions of the future to these places.",
+    "p3": "Today there is more visibility, more opportunity, more voices. Yet women remain underrepresented in many technical and design fields. The cubes invite us not only to name this gap but to close it together – through learning, exchange and rediscovering stories that have been pushed to the margins.",
+    "p4": "CoStructure understands industrial heritage as a gender perspective in urban space: not didactic, but inviting. The cubes are places to pause, listen, marvel, participate – and maybe think: \"True… I never considered that before.\" That’s where change begins."
+  },
+
   "status": {
-    "title": "What is happening right now?",
+    "title": "What’s happening right now?",
     "subtitle": "A quick overview of events, emerging cubes and ways to get involved.",
     "eventsLabel": "Events",
-    "eventsTitle": "No upcoming events",
-    "eventsText": "As soon as walks, workshops or neighbourhood meetings are planned, they will appear here.",
+    "eventsTitle": "No current events",
+    "eventsText": "As soon as walks, workshops or neighbourhood meet-ups are planned, they will appear here.",
     "cubesLabel": "New cubes",
-    "cubesTitle": "First locations in preparation",
-    "cubesText": "Planned sites include gasworks areas, harbour plots and railway locations. We are still in the design and coordination phase.",
+    "cubesTitle": "First locations in development",
+    "cubesText": "We are working on the first cube designs and assessing possible sites – including former and partly listed factories, breweries and technical facilities. Coordination with initiatives and neighbourhoods is currently underway.",
     "joinLabel": "Get involved",
     "joinTitle": "Ideas from the neighbourhood",
-    "joinText": "We are currently collecting possible sites and uses. In the future you will be able to submit suggestions and feedback here."
+    "joinText": "We are collecting potential locations and uses. In the future, you will be able to submit ideas or feedback here."
   },
 
   "footer": "© {{year}} CoStructure",
-  
-  "sketch": {
-    "title": "What does a cube feel like?",
-    "lead": "Calm and clear inside, the city and its industrial traces outside.",
+
+  "cube": {
+    "title": "What do the cubes look like – and what are they for?",
+    "subtitle": "Two formats, one principle: open, accessible spaces for exchange, learning and observing the city.",
     "imageAlt": "Interior or exterior view of a CoStructure cube next to industrial architecture",
-    "captionTitle": "A quiet space in a rough setting",
-    "subtitle": "Outside: brickwork, tracks, pipes – inside: warm light, clear surfaces and enough room to sit, doodle or simply watch.",
-    "body": "The cubes pick up on industrial geometry without copying it: grids, edges, visible joints. They feel robust but welcoming – like a temporary anchor point in an otherwise very loud city."
+    "permanentLabel": "Permanent cubes",
+    "mobileLabel": "Mobile cubes",
+    "contentTop": "CoStructure works with two cube types that connect to industrial sites but function differently:",
+    "permanentContent": "Robust, weatherproof and architecturally anchored. Steel frames, mesh panels, green roofs and open sides turn them into small, clear micro-spaces: a place to sit, draw, listen or simply breathe. Inside: rotating information – posters, QR codes, photos. Outside: seating cubes and small platforms for conversations and mini-events. They remain permanently at one location and make industrial settings tangible in everyday life.",
+    "mobileContent": "A cube on wheels: a compact trailer that unfolds on site into a sheltered space. The sides fold up, the roof forms, and underneath appears a temporary meeting point – for workshops, walks, school groups or spontaneous activities. Lightweight seating modules, mobile poster surfaces and low-energy lighting make it adaptable and quick to use. It appears wherever something is happening.",
+    "contentBottom": "Both cube formats bring industrial heritage out into the urban space – as open places without entry barriers, inviting people of all ages to discover something new."
   },
+
   "cards": {
     "cardsHeadline": "Sections",
     "mapTitle": "Map",
-    "mapDesc": "Interactive city map with few but selected spots.",
+    "mapDesc": "Interactive city map with a few, but pointed, locations.",
     "galleryTitle": "Gallery",
     "galleryDesc": "Sketches, snapshots, material collection.",
-    "aboutTitle": "About",
-    "aboutDesc": "What is CoStructure? Concept, tools, goals.",
-     "eventsTitle": "Events",
-    "eventsDesc": "Events around industrial heritage and urban space.",
+    "aboutTitle": "About the project",
+    "aboutDesc": "What is CoStructure? Approach, tools, goals.",
+    "eventsTitle": "Events",
+    "eventsDesc": "Events related to gender perspectives in industrial heritage and the city.",
     "newsTitle": "News",
-    "newsDesc": "Updates on the project and new features.",
+    "newsDesc": "Project updates and new features.",
     "storiesTitle": "Stories",
-    "storiesDesc": "Stories about places, people and industrial culture."
+    "storiesDesc": "Stories about places, people and industrial heritage."
   },
+
   "map": {
     "legendTitle": "Legend",
     "infoBoxTitle": "Info",
-    "infoBoxContent": "Welcome to CoStructure! Explore the interactive map with selected urban places. Click on the markers to get more information."
+    "infoBoxContent": "Welcome to CoStructure! Explore the interactive map with selected urban sites. Click the markers to learn more."
   },
+
   "about": {
-    "projectDescription": "<p>Berlin’s industrial heritage shapes entire neighborhoods—old breweries, production halls and former factories. These buildings are impressive but often feel inaccessible: monumental, dark, isolated or disconnected from daily life. Historically, they were almost exclusively designed, built and narrated by men. Women appeared primarily as workers, yet their contributions rarely entered official records.</p><p>This project responds to that imbalance. A cube creates an open, accessible meeting point right next to historic industrial sites. It is visible, safe and invites visitors to re-discover industrial heritage from a more inclusive perspective. An interactive map accompanies the cube, showing locations, histories and often overlooked narratives. Together, they form a digital–physical project that reframes industrial heritage.</p>",
+    "projectDescription": "<p>Berlin is shaped by industry. Many former industrial buildings can still be found outside typical industrial zones. Many of these structures appear impressive but also closed-off: monumental, dark, inaccessible or isolated. Historically, they were planned and built almost exclusively by men. Women appear in this history mostly as workers. Yet it is their labour, hours and strength that kept these places running.</p><br/><p>This is where the CoStructure cube comes in: an open, accessible place of encounter right beside historic industrial buildings. It invites visitors to rediscover industrial heritage from an expanded perspective. Alongside this, an interactive map presents locations, contexts and often overlooked stories. Together, they form a digital-physical project that makes industrial heritage more inclusive.</p>",
+    "relevance": "<p>Industrial heritage is a central part of Berlin’s history – but one told mostly from a male perspective. Women, queer people and other marginalised groups are barely represented. Even today, many industrial areas feel functional, rough and unsafe at night – rarely like places that serve everyone equally.</p><p>Why is this relevant? Spaces are never neutral. They signal belonging or exclusion. Marginalised groups remain largely invisible in industrial history. Industrial sites are often perceived as unsafe. And when historic buildings are repurposed, gender perspectives are rarely considered. The cube and the map address these gaps and reopen these spaces.</p>",
+    "currentStatus": "<p>The digital map already highlights selected industrial heritage sites and connects them to historical contexts. Filters, time layers and story elements make the content accessible and interactive.</p><p>The cube concept is being developed in parallel: a light, modular structure that prioritises openness, visibility and inclusion. Next steps include material specification, selecting a pilot location and integrating personal stories.</p>",
+    "benefits": "<p><strong>For urban space:</strong></p><p> • Activation of neglected or unsafe places<br/> • Improved quality of stay and visibility<br/> • Low-threshold meeting point<br/> • New attention for historic buildings</p><p><strong>For society:</strong></p><p> • Visibility of women’s labour and history<br/> • Awareness of gender-sensitive urban planning<br/> • Strengthening social participation<br/> • Public space for everyone</p><p><strong>For visitors:</strong></p><p> • Easy access to knowledge<br/> • Safe, open place to stay<br/> • Space for exhibitions, workshops and encounters<br/> • A sign that the city belongs to everyone</p>",
+    "implementation": "<p>Implementation consists of two interconnected parts:</p><p><strong>1. The cube:</strong><br/> • modular, light and adaptable<br/> • open structure with clear sightlines and lighting<br/> • materials referencing industrial heritage<br/> • barrier-free and safe<br/> • space for information, exhibitions and encounter</p><p><strong>2. The digital map:</strong><br/> • shows industrial heritage sites<br/> • connects historical and gender-related content<br/> • offers filters by time, use and theme<br/> • continuously expandable<br/> • links digital and physical urban experiences</p>",
+    "knowledgeTransfer": "<p>The cube is an open place for learning and encounter. It conveys knowledge in a low-threshold, accessible and everyday way – not as a museum.</p><p>Content includes:<br/>- history of Berlin’s industrial heritage<br/>- roles of women and marginalised groups<br/>- basics of gender-sensitive urban planning<br/>- visible and invisible labour<br/>- perceptions of safety and space<br/>- neighbourhood perspectives</p>",
+    "stories": "<p>Stories are at the heart of this project. They reveal how many perspectives have been missing in industrial heritage.</p><p>They include:<br/>- women who kept factories running during wartime<br/>- women whose labour was never documented<br/>- everyday experiences of women around industrial sites<br/>- voices from the neighbourhood<br/>- today’s view of industrial areas as fascinating or unsafe<br/>- examples of successful and failed reuse</p><p>These stories reveal what industrial heritage often hides: that these places were full of life – and can be again.</p>"
+  },
 
-  "relevance": "<p>Industrial heritage is a significant part of Berlin’s identity, yet it reflects a predominantly male perspective—architecturally, historically and culturally. Women, queer people and marginalized groups are barely represented. Many industrial areas remain functional, rough and unsafe at night, and rarely function as comfortable public spaces.</p><p>Why is this relevant? Urban spaces are never neutral. They signal belonging or exclusion. Women's contributions to industrial history remain largely invisible. Industrial zones often act as unsafe spaces. And adaptive reuse projects still rarely integrate gender-sensitive planning. The cube and the map introduce new access, visibility and perspectives into these neglected spaces.</p>",
+    "mobile": {
+      "kicker": "On tour",
+      "title": "Mobile CoStructure cubes",
+      "intro": "Mobile CoStructure cubes travel to your site for a weekend, a week or a festival. They bring exhibition, workshop space and meeting point together in one compact format – usable both inside and outside.",
+      "ctaTitle": "Bring a CoStructure cube to your site",
+      "ctaText": "You have a site, festival, courtyard or public square where a CoStructure cube could work well? Together we can design a format that fits your place and your audience.",
+      "ctaButton": "Request mobile cube"
+    },
 
-  "currentStatus": "<p>The digital map already showcases selected industrial heritage sites and links them to historical context. Filters, time views and story elements make the content accessible and engaging.</p><p>In parallel, the cube concept is being developed: a lightweight, modular structure focused on openness, visibility and inclusive design. Next steps include selecting a reference location, refining materials and form, and integrating personal stories and perspectives.</p>",
+    "permanent": {
+      "kicker": "Anchored on site",
+      "title": "Permanent CoStructure cubes",
+      "intro": "Permanent cubes stay at one site for a longer period – for example on an industrial area, in a courtyard or as part of an educational campus. They act as an anchor for changing exhibitions, workshops and neighbourhood formats."
+    },
 
-  "benefits": "<p><strong>For the urban environment:</strong></p><p>- Activation of neglected or unsafe spaces<br/>- Improved visibility and sense of safety<br/>- Low-threshold public meeting point<br/>- Renewed appreciation for historic buildings</p><p><strong>For society:</strong></p><p>- Recognition of women's historical contributions<br/>- Awareness for gender-sensitive urban planning<br/>- Strengthened social inclusion<br/>- Public space accessible to all</p><p><strong>For visitors:</strong></p><p>- Easy access to knowledge<br/>- A safe, open place to stay<br/>- Space for exhibitions, workshops and encounters<br/>- A visible statement that cities belong to everyone</p>",
+    "formats": {
+      "kicker": "Building blocks",
+      "title": "What can happen in the cube",
+      "intro": "CoStructure events combine different building blocks. From these elements we can assemble tailored programmes for different sites and audiences.",
+      "item1": {
+        "title": "Mini exhibitions",
+        "body": "Graphics, photos, historical documents, material samples and simple models make the history and future of a site visible – prepared in an accessible way for a broad audience."
+      },
+      "item2": {
+        "title": "Workshops & labs",
+        "body": "Hands-on formats for building, tinkering, measuring and experimenting: from upcycling workshops to material experiments and small urban labs with maps and models."
+      },
+      "item3": {
+        "title": "Talks & short inputs",
+        "body": "15–30 minute inputs from research, planning, activism or art – as a starting point for topics like industrial heritage, urban change, energy or just cities."
+      },
+      "item4": {
+        "title": "Walks & site tours",
+        "body": "The cube acts as a starting point for guided walks across the site or through the neighbourhood. On the way, stories are told, traces are shown and future scenarios are discussed."
+      },
+      "item5": {
+        "title": "Open space & participation",
+        "body": "Idea walls, annotatable maps, small prototypes and conversation formats make it easy for neighbours, visitors and initiatives to share their perspectives."
+      },
 
-  "implementation": "<p>The implementation consists of two complementary components:</p><p><strong>1. The Cube:</strong><br/>- modular, lightweight and adaptable<br/>- open structure with clear sightlines and lighting<br/>- materials referencing industrial aesthetics<br/>- accessible and safe<br/>- space for information, exhibitions and interaction</p><p><strong>2. The Digital Map:</strong><br/>- shows industrial heritage locations<br/>- visualizes historical and gender-related information<br/>- filterable by time period, theme and usage<br/>- easy to expand and maintain<br/>- links digital knowledge with physical urban space</p>",
+    "contribute": {
+      "kicker": "Get involved",
+      "title": "Co-create the programme in the cube",
+      "intro": "CoStructure lives from people sharing their knowledge, experiences and perspectives. The cube is a platform – not just a stage.",
+      "item1": "You are a researcher and would like to make your work accessible.",
+      "item2": "You work in planning, heritage, industry or administration and want to share insights.",
+      "item3": "You are active in an initiative, association, teaching or the arts and are looking for a place to show your topics.",
+      "item4": "You simply have a strong idea for a workshop, installation or conversation format in the cube.",
+      "primaryCta": "I want to host something in the cube",
+      "secondaryCta": "Propose a format",
+      "footer": "Please write a few sentences about who you are, what you would like to do and whether you want to connect to a mobile or a permanent cube.",
+      "exampleHeader": "Example: “Hey, I’m …”",
+      "exampleBody": "“Hey, I’m a researcher at university XY and I work on the history of a nearby industrial site. I’d love to give a 20-minute input and then have a discussion with the neighbourhood. Inside the cube we could show a small mini exhibition with photos and maps.”",
+      "exampleHint": "Short, concrete ideas like this help us to co-design a format that matches you, the site and the cube."
+    },
 
-  "knowledgeTransfer": "<p>The cube functions as an accessible learning space. It conveys knowledge in a low-threshold, approachable way—not as a museum, but as a shared public setting.</p><p>Content includes:<br/>- history of Berlin’s industrial heritage<br/>- contributions of women and marginalized groups<br/>- basics of gender-sensitive urban planning<br/>- stories of visible and invisible labor<br/>- spatial perception and safety<br/>- local community perspectives</p>",
+    "cards": {
+      "mobile1": {
+        "title": "Industrial heritage to touch – pop-up in an industrial yard",
+        "meta": "Mobile cube · 3 days · Former industrial site",
+        "description": "A mobile CoStructure cube turns the courtyard of a former industrial site into a small pop-up exhibition: the outside surfaces tell the story of the place, inside visitors can touch material samples, look at old plans and listen to short audio stories. Short mini tours with people who know the site accompany the programme.",
+        "audience": "Audience: neighbours, people interested in history, casual passers-by."
+      },
+      "mobile2": {
+        "title": "Future lab: Your city of tomorrow",
+        "meta": "Mobile cube · 1 week · City festival / central square",
+        "description": "During the day, school classes take part in workshops on urban development, energy and circularity. In the afternoon, residents can map their ideas for the neighbourhood on maps and models. In the evening, short talks address topics such as adaptive reuse of industrial buildings or climate-resilient districts.",
+        "audience": "Audience: school classes, residents, initiatives, administration."
+      },
+      "mobile3": {
+        "title": "Temporary makerspace – repair & upcycling",
+        "meta": "Mobile cube · 2 days · Courtyard / community centre",
+        "description": "The cube becomes a temporary mini makerspace: inside there are simple tools and material samples, outside an open repair and upcycling action. People bring broken everyday objects, learn repair techniques and start conversations about resources and material cycles.",
+        "audience": "Audience: neighbours, DIY community, families, anyone with broken things."
+      },
 
-  "stories": "<p>Stories are at the heart of this project. They reveal how many perspectives are missing from industrial heritage.</p><p>They include:<br/>- women who kept production running during wartime<br/>- workers whose contributions were never documented<br/>- female everyday experiences around industrial districts<br/>- voices from neighboring communities<br/>- contemporary perceptions of industrial sites as unsafe or inspiring<br/>- examples of inclusive and missed adaptive reuse</p><p>These narratives highlight what industrial heritage often masks: that these places were full of life—and can be again.</p>"
- }
+      "permanent1": {
+        "title": "Open cube day – every first Saturday",
+        "meta": "Permanent cube · Recurring format",
+        "description": "On the first Saturday of each month, the cube opens without registration. Inside, a small exhibition tells the story of the site, with changing exhibits and a question wall where visitors can add their own memories. Short 20-minute tours make it easy to join.",
+        "audience": "Audience: neighbours, casual visitors, people on site."
+      },
+      "permanent2": {
+        "title": "School module: Industrial heritage & future questions",
+        "meta": "Permanent cube · Bookable educational format",
+        "description": "In a 90-minute session, the cube becomes a learning station: pupils work in small groups with maps, materials and mini models. They research how the site was used in the past and design scenarios of what it could look like in 30 years. Their results stay visible in the cube as a small exhibition.",
+        "audience": "Audience: school classes, teachers, educational partners."
+      },
+      "permanent3": {
+        "title": "After-work input & exchange",
+        "meta": "Permanent cube · Monthly evening format",
+        "description": "A relaxed after-work format with short inputs on topics such as adaptive reuse, energy, just cities or feminist perspectives on industrial heritage. Afterwards, there is time for questions and conversations in a small setting.",
+        "audience": "Audience: people living or working nearby, professionals, interested visitors."
+      }
+    }
+  },
+
+  "aboutNew": {
+    "kicker": "Project concept",
+    "title": "CoStructure — explained clearly, experienced in the city",
+    "lead": "CoStructure brings industrial heritage into everyday life — not as a museum, but as open learning and meeting places in public space. Two cube formats (permanent + mobile) and a digital map connect past, present and future: visible, low-barrier and participatory.",
+    "ctaMap": "Open the map",
+    "ctaEvents": "Formats & events",
+    "quickFacts": [
+      "Two formats: permanent cube + mobile cube",
+      "Free, open, no registration",
+      "Industrial heritage + gender lens + city as classroom",
+      "Hybrid: public space + digital map"
+    ],
+
+    "howTitle": "How does it work?",
+    "howKicker": "Principle",
+    "howItems": [
+      {
+        "title": "The permanent cube",
+        "body": "A weather-proof micro place next to industrial heritage. It invites people to sit, listen and take part. Rotating content inside (posters, QR, short texts, photos) — plus outdoor seating modules for spontaneous micro-formats."
+      },
+      {
+        "title": "The mobile cube",
+        "body": "A cube on wheels that travels to neighbourhoods. Side panels open and create a covered space. Ideal for pop-ups, walks, school modules or small workshops — visible, quick to set up, present where everyday life happens."
+      },
+      {
+        "title": "The map as amplifier",
+        "body": "The map shows sites, status (e.g. planned/temporary/realised), reuse and thematic focus. It keeps the project accessible beyond specific times or events. Over time it can bundle stories, biographies and media modules."
+      },
+      {
+        "title": "The key idea",
+        "body": "CoStructure tells industrial heritage not only as architecture and machines, but as social history: labour, everyday life, what is usually invisible. The cube is the stage in the city — the map is the context that connects everything."
+      }
+    ],
+
+    "whyTitle": "Why does it matter?",
+    "whyKicker": "Context",
+    "whyProblemTitle": "Industrial heritage is often told one-sided.",
+    "whyProblemBody": "Buildings, technology and ‘great names’ are visible — while the contributions of many women and marginalised groups remain unseen. Many industrial sites also feel inaccessible, purely functional, rough, or unsafe at night — and are rarely designed as inviting places to stay.",
+    "whyApproachTitle": "CoStructure makes it everyday-accessible.",
+    "whyApproachBullets": [
+      "short, clear content instead of text walls",
+      "visible micro-places instead of ‘only online’",
+      "participation over consumption",
+      "open, free, low-barrier access"
+    ],
+    "whyQuoteLabel": "One sentence to remember:",
+    "whyQuote": "“Access is future: when places are open, more people dare to shape tech, design and the city.”",
+
+    "impactTitle": "What’s the impact?",
+    "impactKicker": "Impact",
+    "impactItems": [
+      {
+        "title": "For visitors",
+        "body": "A clear place to pause and learn — without intimidation. Heritage becomes tangible because it appears in everyday routines: a quick stop, a mini exhibit, a conversation, a hands-on moment."
+      },
+      {
+        "title": "For neighbourhoods",
+        "body": "Activation and exchange where people usually just pass through. The cube becomes an anchor for residents, initiatives and schools — not a one-off event but a recurring, visible micro-place."
+      },
+      {
+        "title": "For shifting perspectives",
+        "body": "A gender lens means making invisible labour visible, questioning stereotypes and opening pathways into tech & design. Not exclusive — inclusive by design, so everyone can learn together."
+      }
+    ],
+
+    "statusTitle": "Status & next steps",
+    "statusKicker": "Roadmap",
+    "steps": [
+      {
+        "title": "Concept & content",
+        "body": "Goals, formats and core messages are set. Content is designed to be quickly understandable (text, visuals, optional audio/QR)."
+      },
+      {
+        "title": "Pilot site & partners",
+        "body": "Coordination with potential sites and partners (e.g. schools, initiatives, industrial heritage locations). Selection of a pilot setup for the start."
+      },
+      {
+        "title": "Prototyping & implementation",
+        "body": "Materials, construction and modular elements are tested. In parallel, the final structure of the map and content modules is built."
+      },
+      {
+        "title": "Programme start",
+        "body": "Launch + ongoing programme with regular formats: workshops, talks, school modules, walks and mobile pop-ups — seasonally adjusted."
+      }
+    ],
+
+    "getInvolvedTitle": "Get involved (simple)",
+    "getInvolvedBody": "Know a site that could fit — or a story that should be told? Send a short message. One sentence is enough; the rest can grow from there.",
+    "getInvolvedCta": "Contact",
+
+    "faqTitle": "FAQ",
+    "faqKicker": "Quick answers",
+    "faqs": [
+      {
+        "q": "Is this real already or still a concept?",
+        "a": "The map is already usable. The cube is planned as a pilot — next steps are prototyping, site coordination and preparing the first formats."
+      },
+      {
+        "q": "Do I need prior knowledge?",
+        "a": "No. Curiosity is enough. Content is designed to work for people without any background knowledge."
+      },
+      {
+        "q": "Why the gender lens?",
+        "a": "Because industrial heritage often makes only one perspective visible. CoStructure expands the narrative: labour, everyday life and contributions that are usually missing — and it opens access to tech & design."
+      },
+      {
+        "q": "How can I contribute?",
+        "a": "By suggesting sites, stories, partnerships (school/initiative/site) or giving feedback on the map. Later, this can also become a small form."
+      }
+    ],
+
+    "footerNote": "This page is intentionally scannable. Highly detailed material (budget, timeline, risk plan) works better as a download/appendix — not as long web text."
+  },
+  "events": {
+    "hero": {
+      "kicker": "INDUSTRIAL HERITAGE · URBAN SPACES · ENCOUNTER",
+      "title": "Events & formats with CoStructure",
+      "lead": "CoStructure cubes are modular spaces to explore, experiment and discuss. Whether as a mobile pop-up or a permanent cube on site – industrial heritage, urban change and future topics become tangible.",
+      "ctaPrimary": "View program as calendar list",
+      "ctaSecondary": "Co-create the program",
+      "note": "Sample program",
+      "notice": {
+        "title": "Program start",
+        "text": "The first program phase is hypothetically planned for Autumn 2026. All items below are examples showing how a CoStructure program could look (theatre-program logic: clear, scanable, easy to plan)."
+      }
+    },
+    "types": {
+      "title": "TWO CUBE TYPES",
+      "intro": "CoStructure distinguishes between mobile cubes that visit a place for a limited time and permanent cubes that remain anchored long-term.",
+      "mobileTitle": "Mobile cubes",
+      "mobileDesc": "Pop-up formats for festivals, neighborhood events, temporary uses or pilot projects.",
+      "permanentTitle": "Permanent cubes",
+      "permanentDesc": "Long-term anchors for continuous programming, learning and participation."
+    },
+    "calendar": {
+      "badge": "CALENDAR / LIST",
+      "title": "Program in list format",
+      "lead": "A sample program presented like a theatre schedule: date, time, title, location and cube type. It’s instantly clear what happens when – even if implementation starts in 2026.",
+      "hint": "Later you can feed this list from a JSON/DB. For the submission, this is a plausible preview.",
+      "months": ["October 2026", "November 2026", "December 2026"],
+      "items": {
+        "mobilePopUp": {
+          "date": "Fri, Oct 09",
+          "time": "15:00–18:00",
+          "title": "Hands-on industrial heritage – pop-up in an industrial courtyard",
+          "type": "Mobile",
+          "location": "Former industrial site · courtyard (example)"
+        },
+        "futureLab": {
+          "date": "Sat, Oct 17",
+          "time": "11:00–16:00",
+          "title": "Future Lab: your city tomorrow",
+          "type": "Mobile",
+          "location": "District festival / central square (example)"
+        },
+        "repairDay": {
+          "date": "Sun, Nov 01",
+          "time": "12:00–15:00",
+          "title": "Temporary makerspace – repair & upcycling",
+          "type": "Mobile",
+          "location": "Courtyard / neighborhood center (example)"
+        },
+        "openCubeDay": {
+          "date": "Sat, Nov 07",
+          "time": "14:00–17:00",
+          "title": "Open Cube Day – first Saturday each month",
+          "type": "Permanent",
+          "location": "Permanent cube · industrial site (example)"
+        },
+        "schoolModule": {
+          "date": "Wed, Dec 02",
+          "time": "09:30–11:00",
+          "title": "School module: industrial heritage & future questions",
+          "type": "Permanent",
+          "location": "Permanent cube · bookable education format"
+        },
+        "afterWork": {
+          "date": "Thu, Dec 10",
+          "time": "18:30–20:00",
+          "title": "After-work input & conversation",
+          "type": "Permanent",
+          "location": "Permanent cube · monthly evening format"
+        }
+      }
+    },
+    "mobile": {
+      "sectionKicker": "ON TOUR",
+      "title": "Mobile CoStructure cubes",
+      "lead": "Mobile cubes arrive for a weekend, a week or a festival. They bring exhibition, workshop space and a meeting place in one compact format – usable inside and outside.",
+      "cards": [
+        {
+          "meta": "Mobile cube · 3 days · former industrial site",
+          "title": "Hands-on industrial heritage – courtyard pop-up",
+          "desc": "A mobile cube turns the courtyard into a small pop-up exhibition: surfaces tell the site’s story, visitors can touch materials, view plans and listen to short audio stories. Mini-tours with people who know the place provide context.",
+          "audience": "Audience: neighborhood, heritage-curious visitors, passers-by."
+        },
+        {
+          "meta": "Mobile cube · 1 week · district festival / central square",
+          "title": "Future Lab: your city tomorrow",
+          "desc": "During the day: workshops for school groups on urban change, energy and circularity. In the afternoon: citizens map ideas using cards and models. In the evening: short inputs on adaptive reuse, heat-resilient districts and urban transformation.",
+          "audience": "Audience: schools, local community, initiatives, administration."
+        },
+        {
+          "meta": "Mobile cube · 2 days · courtyard / neighborhood center",
+          "title": "Temporary makerspace – repair & upcycling",
+          "desc": "A pop-up mini makerspace: tools and materials inside, open repair/upcycling outside. People bring broken everyday objects, learn basic repair techniques and discuss resources and material cycles.",
+          "audience": "Audience: neighborhood, DIY community, families, anyone with broken stuff."
+        }
+      ],
+      "ctaTitle": "Bring a CoStructure cube to your place",
+      "ctaLead": "Do you have a site, square, festival or setting where a CoStructure cube could work? Let’s co-design a format that fits your location and audience.",
+      "ctaButton": "Co-create the program"
+    },
+    "permanent": {
+      "sectionKicker": "ANCHORED ON SITE",
+      "title": "Permanent CoStructure cubes",
+      "lead": "Permanent cubes stay long-term – on an industrial site, in a courtyard or as part of an education campus. They act as anchors for rotating exhibitions, workshops and neighborhood formats.",
+      "cards": [
+        {
+          "meta": "Permanent cube · recurring format",
+          "title": "Open Cube Day – first Saturday each month",
+          "desc": "Once a month, the cube is open without registration. Inside: a small exhibition about the site, rotating objects and a question wall. Short 20-minute tours make entry easy.",
+          "audience": "Audience: neighborhood, spontaneous visitors, people on site."
+        },
+        {
+          "meta": "Permanent cube · bookable education format",
+          "title": "School module: industrial heritage & future questions",
+          "desc": "In 90 minutes, the cube becomes a learning station: students work in groups with maps, materials and mini models. They research past uses and develop scenarios for the site in 30 years. Results remain visible as a mini exhibition.",
+          "audience": "Audience: school groups, teachers, education partners."
+        },
+        {
+          "meta": "Permanent cube · monthly evening format",
+          "title": "After-work input & conversation",
+          "desc": "A relaxed evening format with short inputs on adaptive reuse, energy, just cities or feminist perspectives on industrial heritage – followed by Q&A and small-group conversation.",
+          "audience": "Audience: locals, professionals, interested visitors."
+        }
+      ]
+    },
+    "blocks": {
+      "sectionKicker": "BUILDING BLOCKS",
+      "title": "What can happen inside the cube",
+      "lead": "CoStructure events combine different formats. These building blocks can be assembled into site- and audience-specific programs.",
+      "cards": [
+        { "title": "Mini exhibitions", "desc": "Graphics, photos, documents, material samples and simple models make a site’s past and future understandable – everyday, not museum-like." },
+        { "title": "Workshops & labs", "desc": "Hands-on formats to build, test and experiment: from material explorations to small urban labs using maps and models." },
+        { "title": "Talks & short lectures", "desc": "15–30 minute inputs from research, planning, activism or art – as entry points into heritage, transformation, energy or just urban spaces." },
+        { "title": "Walks & site tours", "desc": "The cube as starting point for tours across the site or district. Stories, traces and future scenarios become visible in place." },
+        { "title": "Open space & participation", "desc": "Idea walls, annotated maps, small prototypes and conversation formats bring in perspectives from neighbors, visitors and initiatives." }
+      ]
+    },
+    "contribute": {
+      "sectionKicker": "GET INVOLVED",
+      "title": "Co-create the program",
+      "lead": "CoStructure thrives on people sharing knowledge, experience and perspectives. The cube is a platform – not just a stage.",
+      "bullets": [
+        "You are a researcher and want to make your work accessible.",
+        "You work in planning, heritage conservation, industry or administration and want to share insights.",
+        "You are active in an initiative, teaching or art and need a place for a format.",
+        "You simply have a good idea for a workshop, installation or conversation – no ‘title’ needed."
+      ],
+      "exampleTitle": "Example: “Hi, I’m …”",
+      "exampleQuote": "Hi, I’m a researcher at University XY and I study the history of a nearby factory. I’d like to give a 20-minute input and then talk with the neighborhood. The cube could host a small mini exhibition with photos and maps.",
+      "exampleNote": "Short, concrete proposals help us co-develop a format that fits you, the place and the cube.",
+      "ctaPrimary": "I want to offer something",
+      "ctaSecondary": "Suggest a format",
+      "note": "In a few sentences: who you are, what you’d like to do, and whether you want a mobile or permanent setting."
+    }
+  }
 }

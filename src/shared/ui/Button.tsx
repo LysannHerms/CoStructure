@@ -43,7 +43,7 @@ function baseClasses(variant: Variant = "primary", size: Size = "md") {
   return cx(
     "inline-flex items-center justify-center rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black",
     sizes,
-    variants
+    variants,
   );
 }
 
@@ -89,5 +89,5 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
         {children}
       </button>
     );
-  }
+  },
 );

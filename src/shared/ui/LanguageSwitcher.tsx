@@ -9,7 +9,11 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div role="group" aria-label="Language switch" className="inline-flex border border-[color:var(--black-olive)] rounded-lg overflow-hidden">
+    <div
+      role="group"
+      aria-label="Language switch"
+      className="inline-flex border border-[color:var(--black-olive)] rounded-lg overflow-hidden"
+    >
       <button
         type="button"
         aria-pressed={current === "de"}

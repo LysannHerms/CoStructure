@@ -2,37 +2,44 @@
 @import "tailwindcss";
 
 /* Reset & Layout-Fix: überschreibt Vite-Template-Stile */
-html, body, #root { height: 100%; }
+html,
+body,
+#root {
+  height: 100%;
+}
 body {
   margin: 0;
-  background: #ffffff;  
-  color: #111827;                 /* Tailwind gray-900 als Default-Textfarbe */
+  background: #ffffff;
+  color: #411614; /* Tailwind gray-900 als Default-Textfarbe */
 }
-
-:root{
+h2:has(+ div > div > p[class*="text-[color:var(--persimmon)]"]) {
+  color: var(--black-bean);
+}
+:root {
   --ink: #112712;
   --green-dark: #2c4236;
-  --black-olive: #2F342F;
+  --black-olive: #2f342f;
   --ebony: #505851;
-  --battleship-gray: #717B72;
-  --ash-gray1: #929E93;
-  --ash-gray2: #B3C1B4;
-  --ash-gray3: #C6D1C7;
-  --platinum: #D9E0DA;
-  --anti-flash-white: #ECF0ED;
-  --white: #FFFFFF;
-  --misty-rose: #FFE3DE;
+  --battleship-gray: #717b72;
+  --ash-gray1: #929e93;
+  --ash-gray2: #b3c1b4;
+  --ash-gray3: #c6d1c7;
+  --platinum: #d9e0da;
+  --anti-flash-white: #ecf0ed;
+  --white: #ffffff;
+  --misty-rose: #ffe3de;
   --peach-fuzz: #ffc0a7;
   --yellow-pantone: #ffa200;
-  --atomic-tangerine: #FF7938;
-  --orange-pantone: #FF5500;
-  --golden-gate: #EF5103;
-  --syracuse-red-orange: #DF4C06;
-  --brown: #9D3A12;
-  --rusty-spicy: #AF3C0B;
-  --Sienna: #7C3017;
-  --caput-mortuum: #5F2316;
+  --atomic-tangerine: #ff7938;
+  --orange-pantone: #ff5500;
+  --golden-gate: #ef5103;
+  --syracuse-red-orange: #df4c06;
+  --brown: #9d3a12;
+  --rusty-spicy: #af3c0b;
+  --Sienna: #7c3017;
+  --caput-mortuum: #5f2316;
   --black-bean: #411614;
+  --black-coffee: #2b0f0d;
 }
 @media (min-width: 1024px) {
   body {
@@ -40,9 +47,36 @@ body {
   }
 
   #root {
-    max-width: 1120px;
-    margin:  auto ;
-    background: #ffffff;
+    max-width: full;
+    margin: auto;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
   }
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ecf0ed;           /* dein graugrün? */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  color: #1a1a1a;                /* Schriftfarbe */
+  font-family: sans-serif;
+}
+
+/* Inhalt */
+.leaflet-popup-content {
+  margin: 10px 15px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #2d2d2d;                /* Textfarbe */
+}
+
+/* Pfeil unten dem selben Style anpassen */
+.leaflet-popup-tip {
+  background: #ecf0ed;
+}
+
+/* Close-Button */
+.leaflet-popup-close-button {
+  color: #af3c0b;
+  font-size: 20px;
+  top: 6px;
+  right: 8px;
 }

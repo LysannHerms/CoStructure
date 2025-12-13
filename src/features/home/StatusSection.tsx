@@ -14,7 +14,7 @@ type StatusCardProps = {
 const StatusCard: FC<StatusCardProps> = ({ label, title, text }) => {
   return (
     <article className="flex h-full flex-col rounded-2xl border border-[color:var(--ash-gray2)] bg-[color:var(--anti-flash-white)] p-4 shadow-[0_8px_20px_rgba(0,0,0,0.04)]">
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[color:var(--battleship-gray)]">
+      <p className="text-md font-semibold uppercase tracking-[0.14em] text-[color:var(--rusty-spicy)]">
         {label}
       </p>
       <h3 className="mt-1 text-sm font-semibold text-[color:var(--black-olive)] md:text-base">
@@ -35,10 +35,7 @@ const StatusSection: FC = () => {
   const { t } = useTranslation("common");
 
   return (
-    <Section
-      title={t("status.title")}
-      subtitle={t("status.subtitle")}
-    >
+    <Section title={t("status.title")} subtitle={t("status.subtitle")}>
       <div className="grid gap-4 md:grid-cols-3">
         <StatusCard
           label={t("status.eventsLabel")}

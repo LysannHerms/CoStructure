@@ -11,7 +11,7 @@ export type Place = {
   yearBuilt?: number;
   architect?: string;
   previousUse?: string;       // „frühere Nutzung“
-  newUse?: ReuseType;         // „neue Nutzung“
+  newUse?: ReuseType | ReuseType[];         // „neue Nutzung“
   isVacant?: boolean;         // Leerstand: ja/nein
   notes?: string;             // Zusatzinfos
   images?: string[];          // /images/... (unter public/)
