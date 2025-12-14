@@ -5,10 +5,11 @@ export default function Hero() {
   const { t } = useTranslation("common");
 
   return (
-    <section className="flex flex-col gap-10 backdrop-blur-sm  rounded-3xl p-6 lg:p-10 shadow-lg md:flex-row md:items-center md:justify-between">
+    <div className="px-4">
+    <section className="flex flex-col gap-10 backdrop-blur-sm border border-[color:var(--battleship-gray)]/35 rounded-3xl p-6 lg:p-10 shadow-lg md:flex-row md:items-center md:justify-between">
       {/* Textblock */}
       <div className="max-w-xl space-y-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[color:var(--black-bean)]/85">
+        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[color:var(--black-bean)]/85">
           {t("hero.kicker")}
         </p>
 
@@ -32,19 +33,19 @@ export default function Hero() {
           >
             {t("hero.ctaPrimary")}
           </Link>
-          <a
-            href="#project"
+          <Link
+            to="/about"
             className="inline-flex items-center rounded-lg border border-[color:var(--caput-mortuum)] px-4 py-2  font-semibold text-[color:var(--caput-mortuum)] hover:bg-[color:var(--anti-flash-white)] md:text-base"
           >
             {t("hero.ctaSecondary")}
-          </a>
+          </Link>
         </div>
       </div>
 
-      {/* Shapes rechts */}
       <div className=" w-full overflow-hidden rounded-2xl border border-[color:var(--ash-gray2)] bg-[color:var(--anti-flash-white)] shadow-[0_12px_32px_rgba(0,0,0,0.06)]">
         <img src="/img/Cube_permanent_inside.png" className="h-full w-full object-cover" />
       </div>
     </section>
+    </div>
   );
 }

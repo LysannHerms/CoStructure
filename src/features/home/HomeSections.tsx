@@ -11,6 +11,7 @@ export const ProjectIntroSection: FC = () => {
   const { t } = useTranslation("common");
 
   return (
+    <div className="px-4 ">
     <Section title={t("project.title")} subtitle={t("project.subtitle")}>
       <div className="grid gap-8 md:grid-cols-2  md:items-start">
         {/* Bild */}
@@ -35,7 +36,7 @@ export const ProjectIntroSection: FC = () => {
             />
           </p>
 
-          <div className="grid gap-3  text-[color:var(--black-bean)]/85">
+          <div className="grid gap-3 text-[color:var(--black-bean)]/85">
             <div>
               <p className=" font-semibold uppercase tracking-[0.12em] text-[color:var(--rusty-spicy)]">
                 {t("project.forWhomLabel")}
@@ -67,15 +68,17 @@ export const ProjectIntroSection: FC = () => {
         </div>
       </div>
     </Section>
+    </div>
   );
 };
 
 export const WhyCoStructureSection: FC = () => {
   const { t } = useTranslation("common");
   return (
+    <div className="px-4">
     <Section title={t("why.title")}>
-      <div className="md:py-7">
-        <div className="space-y-4 text-sm md:text-base leading-relaxed text-[color:var(--black-bean)]/90">
+      <div className="md:py-7 ">
+        <div className="space-y-4 text-sm md:text-base leading-relaxed text-[color:var(--black-bean)]/90 ">
           {/* Hook */}
           <p className="font-semibold text-[color:var(--black-bean)]">{t("why.hook")}</p>
 
@@ -103,6 +106,7 @@ export const WhyCoStructureSection: FC = () => {
         </div>
       </div>
     </Section>
+    </div>
   );
 };
 
@@ -110,8 +114,10 @@ export const CubePreviewSection: FC = () => {
   const { t } = useTranslation("common");
 
   return (
+    <div className="px-4">
     <Section title={t("cube.title")} subtitle={t("cube.subtitle")}>
       <CubeSection />
     </Section>
+    </div>
   );
 };

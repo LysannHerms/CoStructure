@@ -29,11 +29,3 @@ export function Card({
     </div>
   );
 }
-
-export function Pill({ children }: React.PropsWithChildren) {
-  return (
-    <span className="inline-flex items-center rounded-full border border-[color:var(--orange-pantone)]/35 bg-[color:var(--atomic-tangerine)]/ px-3 py-1 text-sm tracking-wide text-[color:var(--rusty-spicy)]">
-      {children}
-    </span>
-  );
-}

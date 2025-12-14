@@ -4,16 +4,17 @@ export default function CubeSection() {
   const { t } = useTranslation("common");
 
   return (
-    <div className="flex flex-col gap-6 rounded-2xl  md:flex-row items-stretch">
+    <div className="px-4">
+    <section className=" flex flex-col gap-6 rounded-2xl  md:flex-row items-stretch">
       {/* Textseite */}
       <div className="w-full h-full space-y-3 md:w-1/2">
         <p className="text-[color:var(--black-bean)]">{t("cube.contentTop")}</p>
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[color:var(--rusty-spicy)]">
+        <p className="text-sm font-semibold uppercase tracking-[0.12em] text-[color:var(--rusty-spicy)]">
           {t("cube.permanentLabel")}
         </p>
         <p className="text-[color:var(--black-bean)]">{t("cube.permanentContent")}</p>
 
-        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[color:var(--rusty-spicy)]">
+        <p className="text-sm font-semibold uppercase tracking-[0.12em] text-[color:var(--rusty-spicy)]">
           {t("cube.mobileLabel")}
         </p>
         <p className="text-[color:var(--black-bean)]">{t("cube.mobileContent")}</p>
@@ -43,6 +44,7 @@ export default function CubeSection() {
           />
         </div>
       </div>
+    </section>
     </div>
   );
 }

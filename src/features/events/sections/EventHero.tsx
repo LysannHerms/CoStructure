@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Section, Card, Pill } from "./ui";
+import { Section, Card } from "./ui";
 
 const EventHero: React.FC = () => {
   const { t } = useTranslation();
@@ -9,10 +9,6 @@ const EventHero: React.FC = () => {
     <Section>
       <div className="px-4">
         <div className="lg:col-span-7">
-          <div className="mb-4 flex flex-wrap gap-2">
-            <Pill>{t("events.hero.kicker")}</Pill>
-            <Pill>{t("events.hero.note")}</Pill>
-          </div>
 
           <h1 className="text-4xl font-semibold text-[color:var(--orange-pantone)] leading-tight md:text-6xl">
             {t("events.hero.title")}
@@ -25,7 +21,7 @@ const EventHero: React.FC = () => {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#calendar"
-              className="inline-flex items-center justify-center rounded-full bg-[color:var(--atomic-tangerine)] px-6 py-3 text-md font-semibold text-white shadow-[0_14px_40px_rgba(255,85,0,0.25)] transition hover:translate-y-[-1px]"
+              className="inline-flex items-center justify-center rounded-full bg-[color:var(--atomic-tangerine)] px-6 py-3 text-md font-semibold text-white shadow-lg transition hover:translate-y-[-1px]"
             >
               {t("events.hero.ctaPrimary")}
               <span className="ml-2">→</span>

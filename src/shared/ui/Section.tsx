@@ -1,7 +1,7 @@
 type SectionProps = { title?: string; subtitle?: string; children: React.ReactNode };
 export default function Section({ title, subtitle, children }: SectionProps) {
   return (
-    <section className="py-10 backdrop-blur-sm  rounded-3xl p-6 lg:p-10 shadow-lg md:py-14">
+    <section className="py-10 backdrop-blur-sm border border-[color:var(--battleship-gray)]/35 rounded-3xl p-6 lg:p-10 shadow-lg md:py-14">
       {(title || subtitle) && (
         <header className="mb-6">
           {title && (
