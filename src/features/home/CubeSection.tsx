@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { publicUrl } from "../../shared/publicUrl"; 
 
 export default function CubeSection() {
   const { t } = useTranslation("common");
@@ -25,7 +26,7 @@ export default function CubeSection() {
       <div className="w-full md:w-1/2 flex flex-col gap-8 pt-2">
         <div className="aspect-video w-full overflow-hidden rounded-2xl  bg-[color:var(--ash-gray3)]/40">
           <img
-            src="/img/Cube_permanent.png"
+            src={publicUrl("/img/Cube_permanent.png")}
             alt={t(
               "sketch.imageAlt",
               "Innen- oder Außenansicht eines CoStructure Cubes neben Industriearchitektur",
@@ -35,7 +36,7 @@ export default function CubeSection() {
         </div>
         <div className=" aspect-video w-full overflow-hidden rounded-2xl bg-[color:var(--ash-gray3)]/40">
           <img
-            src="/img/Cube_mobile.png"
+            src={publicUrl("/img/Cube_mobile.png")}
             alt={t(
               "sketch.imageAltMobile",
               "Ansicht eines mobilen CoStructure Cubes mit aufgeklappten Seiten",

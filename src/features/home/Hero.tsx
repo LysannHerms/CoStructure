@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { publicUrl } from "../../shared/publicUrl";
 
 export default function Hero() {
   const { t } = useTranslation("common");
@@ -43,7 +44,7 @@ export default function Hero() {
       </div>
 
       <div className=" w-full overflow-hidden rounded-2xl border border-[color:var(--ash-gray2)] bg-[color:var(--anti-flash-white)] shadow-[0_12px_32px_rgba(0,0,0,0.06)]">
-        <img src="/img/Cube_permanent_inside.png" className="h-full w-full object-cover" />
+        <img src={publicUrl("/img/Cube_permanent_inside.png")} className="h-full w-full object-cover" />
       </div>
     </section>
     </div>

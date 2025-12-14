@@ -1,26 +1,27 @@
 // src/features/map/Legend.tsx
 import React from "react";
+import { publicUrl } from "../../shared/publicUrl"; 
 
 const LEGEND_ITEMS = [
   {
     status: 1,
     label: "Realisiert",
-    iconUrl: "/img/Marker_1.svg",
+    iconUrl: publicUrl("/img/Marker_1.svg"),
   },
   {
     status: 2,
     label: "Temporär",
-    iconUrl: "/img/Marker_2.svg",
+    iconUrl: publicUrl("/img/Marker_2.svg"),
   },
   {
     status: 3,
     label: "In Planung",
-    iconUrl: "/img/Marker_3.svg",
+    iconUrl: publicUrl("/img/Marker_3.svg"),
   },
   {
     status: 4,
     label: "Nicht in Planung",
-    iconUrl: "/img/Marker_4.svg", // ggf. an deinen Dateinamen anpassen
+    iconUrl: publicUrl("/img/Marker_4.svg"), // ggf. an deinen Dateinamen anpassen
   },
 ];
 

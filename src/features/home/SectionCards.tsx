@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { publicUrl } from "../../shared/publicUrl"; // oder relativer Pfad
+import { publicUrl } from "../../shared/publicUrl"; 
 
 export default function SectionCards() {
   const { t } = useTranslation("common");

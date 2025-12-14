@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Section from "../../shared/ui/Section";
 import CubeSection from "./CubeSection";
+import { publicUrl } from "../../shared/publicUrl";
 
 
 export const ProjectIntroSection: FC = () => {
@@ -16,7 +17,7 @@ export const ProjectIntroSection: FC = () => {
         <div className="order-2 md:order-1 ">
           <div className=" x-8 w-full overflow-hidden rounded-2xl ">
             <img
-              src="/img/Cube_mobile_Bicycle.png"
+              src={publicUrl("/img/Cube_mobile_Bicycle.png")}
               alt={t("project.imageAlt")}
               className="h-full w-full object-cover"
             />
