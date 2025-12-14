@@ -198,11 +198,9 @@
       },
       {
         "q": "Wie kann ich beitragen?",
-        "a": "Mit Standort-Ideen, Stories, Kooperationen (Schule/Initiative/Ort) oder Feedback zur Karte. Später kann daraus auch ein kleines Formular werden."
+        "a": "Mit Standort-Ideen, Stories, Kooperationen (Schule/Initiative/Ort) oder Feedback zur Karte."
       }
-    ],
-
-    "footerNote": "Diese Seite ist bewusst scanbar. Alles, was sehr detailliert ist (Budget, Zeitplan, Risiko), gehört besser als Download/Anlage – nicht als Fließtext."
+    ]
   },
   "events": {
     "hero": {

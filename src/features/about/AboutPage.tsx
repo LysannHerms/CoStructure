@@ -198,11 +198,6 @@ const AboutPage: React.FC = () => {
             </div>
           </Card>
         </section>
-
-        {/* FOOTER NOTE */}
-        <footer className="mx-auto mt-10 lg:mt-14 w-full max-w-5xl text-center text-xs text-[color:var(--black-bean)]/60">
-          {t("aboutNew.footerNote")}
-        </footer>
       </main>
     </div>
   );
