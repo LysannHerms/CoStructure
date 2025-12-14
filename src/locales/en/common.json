@@ -334,35 +334,42 @@
       "title": "Program in list format",
       "lead": "A sample program presented like a theatre schedule: date, time, title, location and cube type. It’s instantly clear what happens when – even if implementation starts in 2026.",
       "hint": "Later you can feed this list from a JSON/DB. For the submission, this is a plausible preview.",
-      "months": ["October 2026", "November 2026", "December 2026"],
+       "months": [ "September", "Oktober 2026", "November 2026", "Dezember 2026"],
       "items": {
+         "eventLaunch": {
+          "date": "Sa, 12.09.",
+          "time": "14:00–20:00",
+          "title": "Launch-Event: discover CoStructure Cube ",
+          "type": "Permanent",
+          "location": "Former industrial site · courtyard "
+        },
         "mobilePopUp": {
           "date": "Fri, Oct 09",
           "time": "15:00–18:00",
           "title": "Hands-on industrial heritage – pop-up in an industrial courtyard",
           "type": "Mobile",
-          "location": "Former industrial site · courtyard (example)"
+          "location": "Former industrial site · courtyard "
         },
         "futureLab": {
           "date": "Sat, Oct 17",
           "time": "11:00–16:00",
           "title": "Future Lab: your city tomorrow",
-          "type": "Mobile",
-          "location": "District festival / central square (example)"
+          "type": "Permanent",
+          "location": "District festival / central square"
         },
         "repairDay": {
           "date": "Sun, Nov 01",
           "time": "12:00–15:00",
           "title": "Temporary makerspace – repair & upcycling",
           "type": "Mobile",
-          "location": "Courtyard / neighborhood center (example)"
+          "location": "Courtyard / neighborhood center "
         },
         "openCubeDay": {
           "date": "Sat, Nov 07",
           "time": "14:00–17:00",
           "title": "Open Cube Day – first Saturday each month",
           "type": "Permanent",
-          "location": "Permanent cube · industrial site (example)"
+          "location": "Permanent cube · industrial site "
         },
         "schoolModule": {
           "date": "Wed, Dec 02",

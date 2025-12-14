@@ -226,7 +226,7 @@
     "calendar": {
        "badge": "Kalender",
       "title": "Programm",
-      "months": ["Oktober 2026", "November 2026", "Dezember 2026"],
+      "months": [ "September", "Oktober 2026", "November 2026", "Dezember 2026"],
       "items": {
          "eventLaunch": {
           "date": "Sa, 12.09.",

@@ -18,9 +18,18 @@ const ProgramCalendarSection: React.FC = () => {
     t("events.calendar.months.0"),
     t("events.calendar.months.1"),
     t("events.calendar.months.2"),
+    t("events.calendar.months.3"),
   ];
 
   const items: CalendarItemKeys[] = [
+    {
+      id: "eventLaunch",
+      dateKey: "events.calendar.items.eventLaunch.date",
+      timeKey: "events.calendar.items.eventLaunch.time",
+      titleKey: "events.calendar.items.eventLaunch.title",
+      typeKey: "events.calendar.items.eventLaunch.type",
+      locationKey: "events.calendar.items.meventLaunch.location",
+    },
     {
       id: "mobilePopUp",
       dateKey: "events.calendar.items.mobilePopUp.date",
@@ -75,6 +84,7 @@ const ProgramCalendarSection: React.FC = () => {
     [months[0]]: items.slice(0, 2),
     [months[1]]: items.slice(2, 4),
     [months[2]]: items.slice(4, 6),
+    [months[3]]: items.slice(6, 8),
   };
 
   return (
