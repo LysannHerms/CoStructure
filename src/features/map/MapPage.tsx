@@ -12,6 +12,7 @@ import { defaultFilters, type FilterState } from "../../features/map/filterTypes
 
 //Icons je Status (1–4)
 const statusIconMap: Record<number, L.Icon> = {
+  
   1: new L.Icon({
     iconUrl: "/img/Marker_1.svg", // realisiert
     iconSize: [34, 44],
