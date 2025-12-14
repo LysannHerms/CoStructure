@@ -11,7 +11,7 @@ export default function App() {
     <div className="min-h-dvh bg-white text-black-olive">
       <SkipLink />
 
-      {/* Header nur, wenn wir NICHT auf der Map-Seite sind */}
+      {/* Header nur, wenn NICHT auf der MapPage*/}
       {!isMapRoute && <Header />}
 
       <main
@@ -19,14 +19,13 @@ export default function App() {
         role="main"
         className={
           isMapRoute || isAboutRoute
-            ? "m-0 p-0" // Map: kein Padding, volle Fläche
+            ? "m-0 p-0" 
             : "mx-auto max-w-6xl px-4 "
         }
       >
         <Outlet />
       </main>
 
-      {/* Footer nur außerhalb der Map-Seite */}
       {!isMapRoute && <Footer />}
     </div>
   );

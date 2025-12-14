@@ -1,4 +1,4 @@
-// src/features/map/Legend.tsx
+
 import React from "react";
 import { publicUrl } from "../../shared/publicUrl"; 
 
@@ -21,7 +21,7 @@ const LEGEND_ITEMS = [
   {
     status: 4,
     label: "Nicht in Planung",
-    iconUrl: publicUrl("img/Marker_4.svg"), // ggf. an deinen Dateinamen anpassen
+    iconUrl: publicUrl("img/Marker_4.svg"), 
   },
 ];
 

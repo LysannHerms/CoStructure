@@ -112,7 +112,7 @@ const MapPage: React.FC = () => {
         }}
       />
 
-      {/* Toolbar*/}
+
       <div
         style={{
           position: "fixed",
@@ -124,7 +124,6 @@ const MapPage: React.FC = () => {
         <Toolbar state={filters} onChange={setFilters} />
       </div>
 
-      {/* Zurück-Button */}
       <Link
         to="/"
         className="

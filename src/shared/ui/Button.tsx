@@ -11,7 +11,6 @@ type CommonProps = {
   children: React.ReactNode;
 };
 
-// Polymorph: genau EINES der Ziele ist erlaubt
 type ButtonAsButton = CommonProps &
   Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, "href"> & { to?: never; href?: never };
 
@@ -79,7 +78,6 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
       );
     }
 
-    // Fallback: echtes <button>
     return (
       <button
         ref={ref as React.Ref<HTMLButtonElement>}

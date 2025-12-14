@@ -1,7 +1,6 @@
-/* Tailwind v4 + Leaflet */
+
 @import "tailwindcss";
 
-/* Reset & Layout-Fix: überschreibt Vite-Template-Stile */
 html,
 body,
 #root {
@@ -10,7 +9,7 @@ body,
 body {
   margin: 0;
   background: #ffffff;
-  color: #411614; /* Tailwind gray-900 als Default-Textfarbe */
+  color: #411614; 
 }
 h2:has(+ div > div > p[class*="text-[color:var(--persimmon)]"]) {
   color: var(--black-bean);
@@ -54,21 +53,21 @@ h2:has(+ div > div > p[class*="text-[color:var(--persimmon)]"]) {
 }
 
 .leaflet-popup-content-wrapper {
-  background: #ecf0ed;           /* dein graugrün? */
+  background: #ecf0ed;           
   box-shadow: 0 6px 15px rgba(0,0,0,0.25);
-  color: #1a1a1a;                /* Schriftfarbe */
+  color: #1a1a1a;                
   font-family: sans-serif;
 }
 
-/* Inhalt */
+
 .leaflet-popup-content {
   margin: 10px 15px;
   font-size: 14px;
   line-height: 1.4;
-  color: #2d2d2d;                /* Textfarbe */
+  color: #2d2d2d;                
 }
 
-/* Pfeil unten dem selben Style anpassen */
+
 .leaflet-popup-tip {
   background: #ecf0ed;
 }

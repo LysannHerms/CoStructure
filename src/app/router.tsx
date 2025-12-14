@@ -1,5 +1,5 @@
-import { createBrowserRouter } from "react-router-dom"; // Erzeugt einen Router, der die History-API des Browsers nutzt
-import App from "./App";                                // Parent-Element (Shell/Layout)
+import { createBrowserRouter } from "react-router-dom"; 
+import App from "./App";                               
 import Home from "../features/home/Home"; 
 import MapPage from "../features/map/MapPage" 
 import AboutPage from "../features/about/AboutPage";

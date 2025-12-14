@@ -9,14 +9,9 @@ const InfoBox: React.FC<InfoBoxProps> = ({ open, onClose }) => {
   if (!open) return null;
 
   return (
-    // Vollbild-Overlay, aber ohne dunklen Hintergrund
     <div className="fixed inset-0 z-[650]">
-      {/* Klick außerhalb schließt die Box */}
       <div className="absolute inset-0" onClick={onClose} />
-
-      {/* Die eigentliche Box */}
       <div className="pointer-events-auto mx-auto mt-50 max-w-md rounded-2xl bg-[color:var(--syracuse-red-orange)]/50 backdrop-blur-md shadow-lg px-5 py-4 text-sm text-gray-50 relative">
-        {/* Close-Button */}
         <button
           type="button"
           aria-label="Hinweis schließen"

@@ -8,9 +8,7 @@ type StatusCardProps = {
   text: string;
 };
 
-/**
- * Einzelne Statuskarte (Events, Cubes, Mitmachen)
- */
+
 const StatusCard: FC<StatusCardProps> = ({ label, title, text }) => {
   return (
     <article className="flex h-full flex-col rounded-2xl border-[color:var(--battleship-gray)]/35 bg-[color:var(--anti-flash-white)] p-4 shadow-lg">
@@ -27,10 +25,7 @@ const StatusCard: FC<StatusCardProps> = ({ label, title, text }) => {
   );
 };
 
-/**
- * Status-Bereich auf der Startseite:
- * Events · neue Cubes · Mitmachen
- */
+
 const StatusSection: FC = () => {
   const { t } = useTranslation("common");
 

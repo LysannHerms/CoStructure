@@ -44,7 +44,6 @@ const AboutPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-[color:var(--anti-flash-white)]">
       <main className="px-4 py-14 lg:py-20">
-        {/* HERO */}
         <header className="mx-auto w-full max-w-5xl">
           <div className="rounded-3xl bg-white shadow-lg border border-black/5 p-8 lg:p-12">
             <div className="text-xs tracking-[0.18em] uppercase text-[color:var(--rusty-spicy)]">
@@ -81,7 +80,6 @@ const AboutPage: React.FC = () => {
           </div>
         </header>
 
-        {/* HOW + WHY */}
         <section className="mx-auto mt-10 lg:mt-14 w-full max-w-5xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <Card title={t("aboutNew.howTitle")} kicker={t("aboutNew.howKicker")}>
@@ -130,7 +128,6 @@ const AboutPage: React.FC = () => {
           </div>
         </section>
 
-        {/* IMPACT */}
         <section className="mx-auto mt-10 lg:mt-14 w-full max-w-5xl">
           <Card title={t("aboutNew.impactTitle")} kicker={t("aboutNew.impactKicker")}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -144,7 +141,6 @@ const AboutPage: React.FC = () => {
           </Card>
         </section>
 
-        {/* STATUS */}
         <section className="mx-auto mt-10 lg:mt-14 w-full max-w-5xl">
           <Card title={t("aboutNew.statusTitle")} kicker={t("aboutNew.statusKicker")}>
             <ol className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -180,7 +176,6 @@ const AboutPage: React.FC = () => {
           </Card>
         </section>
 
-        {/* FAQ */}
         <section className="mx-auto mt-10 lg:mt-14 w-full max-w-5xl">
           <Card title={t("aboutNew.faqTitle")} kicker={t("aboutNew.faqKicker")}>
             <div className="space-y-3">

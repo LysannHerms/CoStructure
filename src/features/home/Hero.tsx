@@ -8,7 +8,6 @@ export default function Hero() {
   return (
     <div className="px-4">
     <section className="flex flex-col gap-10 backdrop-blur-sm border border-[color:var(--battleship-gray)]/35 rounded-3xl p-6 lg:p-10 shadow-lg md:flex-row md:items-center md:justify-between">
-      {/* Textblock */}
       <div className="max-w-xl space-y-6">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[color:var(--black-bean)]/85">
           {t("hero.kicker")}
@@ -26,7 +25,6 @@ export default function Hero() {
           {t("hero.news")}
         </p>
 
-        {/* CTAs */}
         <div className="flex flex-wrap gap-3">
           <Link
             to="/map"
@@ -44,7 +42,7 @@ export default function Hero() {
       </div>
 
       <div className=" w-full overflow-hidden rounded-2xl border border-[color:var(--ash-gray2)] bg-[color:var(--anti-flash-white)] shadow-[0_12px_32px_rgba(0,0,0,0.06)]">
-        <img src={publicUrl("/img/Cube_permanent_inside.png")} className="h-full w-full object-cover" />
+        <img src={publicUrl("/img/Cube_permanent_inside.png")}  alt="Rendering eines permanenten Cubes im Stadtbild" className="h-full w-full object-cover" />
       </div>
     </section>
     </div>

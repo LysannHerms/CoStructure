@@ -3,7 +3,7 @@ import React from "react";
 export interface AboutCardProps {
   title: string;
   children: React.ReactNode;
-  images?: React.ReactNode; // optional: ein oder mehrere Bilder / Image-Components
+  images?: React.ReactNode; 
 }
 
 const AboutCard: React.FC<AboutCardProps> = ({ title, children, images }) => {

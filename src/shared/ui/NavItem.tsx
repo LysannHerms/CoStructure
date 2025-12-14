@@ -7,7 +7,6 @@ export default function NavItem({ to, children }: { to: string; children: React.
       className={({ isActive }) =>
         "px-2 py-1 rounded " + (isActive ? "font-semibold" : "opacity-80 hover:opacity-100")
       }
-      // NavLink setzt aria-current="page" automatisch → A11y++
     >
       {children}
     </NavLink>

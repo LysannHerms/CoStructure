@@ -33,7 +33,6 @@ export default function FilterDropdown({
 
   const selectedLabel = options.find((opt) => opt.value === value)?.label ?? "–";
 
-  // Position des Buttons messen, wenn Menü aufgeht
   useLayoutEffect(() => {
     if (!open || !buttonRef.current) return;
 
@@ -45,7 +44,6 @@ export default function FilterDropdown({
     });
   }, [open]);
 
-  // ESC schließt das Menü
   useEffect(() => {
     if (!open) return;
     const handleKey = (e: KeyboardEvent) => {
@@ -59,10 +57,8 @@ export default function FilterDropdown({
     open && pos
       ? createPortal(
           <>
-            {/* Klick-Catcher über den ganzen Screen (ohne Blur, komplett transparent) */}
             <div className="fixed inset-0 z-[690]" onClick={() => setOpen(false)} />
 
-            {/* Positionierter Container an der richtigen Stelle */}
             <div
               className="fixed z-[700]"
               style={{
@@ -71,7 +67,6 @@ export default function FilterDropdown({
                 width: Math.min(pos.width, 220),
               }}
             >
-              {/* Nur dieses Panel hat Blur + Hintergrund */}
               <div className="rounded-md bg-white/25 backdrop-blur-md shadow-lg text-sm overflow-hidden">
                 {options.map((opt) => (
                   <button
