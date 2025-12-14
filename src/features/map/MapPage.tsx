@@ -4,42 +4,14 @@ import "leaflet/dist/leaflet.css";
 import { Link } from "react-router-dom";
 import Legend from "../../features/map/Legende";
 import InfoBox from "../../features/map/InfoBox";
+import { statusIconMap } from "./MapAssets";
 
 import { PLACES } from "../../data/places";
 import { applyFilters } from "../../features/map/applyFilters";
 import Toolbar from "../../features/map/Toolbar";
 import { defaultFilters, type FilterState } from "../../features/map/filterTypes";
 
-//Icons je Status (1–4)
-export const publicUrl = (p: string) =>
-  `${import.meta.env.BASE_URL}${p.replace(/^\/+/, "")}`;
-const statusIconMap: Record<number, L.Icon> = {
-  
-  1: new L.Icon({
-    iconUrl: publicUrl("img/Marker_1.svg"), // realisiert
-    iconSize: [34, 44],
-    iconAnchor: [14, 38],
-    popupAnchor: [0, -34],
-  }),
-  2: new L.Icon({
-    iconUrl: "/img/Marker_2.svg", // temporär
-    iconSize: [34, 44],
-    iconAnchor: [14, 38],
-    popupAnchor: [0, -34],
-  }),
-  3: new L.Icon({
-    iconUrl: "/img/Marker_3.svg", // in Planung
-    iconSize: [34, 44],
-    iconAnchor: [14, 38],
-    popupAnchor: [0, -34],
-  }),
-  4: new L.Icon({
-    iconUrl: "/img/Marker_4.svg", // nicht in Planung 
-    iconSize: [34, 44],
-    iconAnchor: [14, 38],
-    popupAnchor: [0, -34],
-  }),
-};
+
 
 const getIconForStatus = (status?: number): L.Icon => {
   if (status && statusIconMap[status]) return statusIconMap[status];
