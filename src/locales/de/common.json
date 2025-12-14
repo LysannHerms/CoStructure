@@ -230,33 +230,40 @@
       "title": "Programm",
       "months": ["Oktober 2026", "November 2026", "Dezember 2026"],
       "items": {
+         "eventLaunch": {
+          "date": "Sa, 12.09.",
+          "time": "14:00–20:00",
+          "title": "Eröffnungs-Event: CoStructure Cube entdecken",
+          "type": "Permanent",
+          "location": "Ehemaliges Industrieareal · Innenhof "
+        },
         "mobilePopUp": {
           "date": "Fr, 09.10.",
           "time": "15:00–18:00",
           "title": "Industriekultur zum Anfassen – Pop-up im Industriehof",
           "type": "Mobil",
-          "location": "Ehemaliges Industrieareal · Innenhof (Beispiel)"
+          "location": "Ehemaliges Industrieareal · Innenhof "
         },
         "futureLab": {
           "date": "Sa, 17.10.",
           "time": "11:00–16:00",
           "title": "Future Lab: Deine Stadt von morgen",
           "type": "Mobil",
-          "location": "Stadtteilfest / zentraler Platz (Beispiel)"
+          "location": "Stadtteilfest / zentraler Platz "
         },
         "repairDay": {
           "date": "So, 01.11.",
           "time": "12:00–15:00",
           "title": "Makerspace auf Zeit – Reparatur & Upcycling",
-          "type": "Mobil",
-          "location": "Innenhof / Nachbarschaftszentrum (Beispiel)"
+          "type": "Permanent",
+          "location": "Innenhof / Nachbarschaftszentrum"
         },
         "openCubeDay": {
           "date": "Sa, 07.11.",
           "time": "14:00–17:00",
-          "title": "Open Cube Day – jeden ersten Samstag",
+          "title": "Open Cube Day mit Workshops und Talks– jeden ersten Samstag",
           "type": "Permanent",
-          "location": "Permanenter Cube · Industrieort (Beispiel)"
+          "location": "Permanenter Cube · Industrieort"
         },
         "schoolModule": {
           "date": "Mi, 02.12.",

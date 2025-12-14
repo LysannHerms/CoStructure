@@ -6,22 +6,22 @@ const LEGEND_ITEMS = [
   {
     status: 1,
     label: "Realisiert",
-    iconUrl: publicUrl("/img/Marker_1.svg"),
+    iconUrl: publicUrl("img/Marker_1.svg"),
   },
   {
     status: 2,
     label: "Temporär",
-    iconUrl: publicUrl("/img/Marker_2.svg"),
+    iconUrl: publicUrl("img/Marker_2.svg"),
   },
   {
     status: 3,
     label: "In Planung",
-    iconUrl: publicUrl("/img/Marker_3.svg"),
+    iconUrl: publicUrl("img/Marker_3.svg"),
   },
   {
     status: 4,
     label: "Nicht in Planung",
-    iconUrl: publicUrl("/img/Marker_4.svg"), // ggf. an deinen Dateinamen anpassen
+    iconUrl: publicUrl("img/Marker_4.svg"), // ggf. an deinen Dateinamen anpassen
   },
 ];
 

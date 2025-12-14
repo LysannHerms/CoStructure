@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 
 type PillProps = { children: React.ReactNode };
@@ -63,20 +64,19 @@ const AboutPage: React.FC = () => {
                 <Pill key={x}>{x}</Pill>
               ))}
             </div>
-
             <div className="mt-8 flex flex-wrap gap-3">
-              <a
-                href="/karte"
+              <Link
+                to="/map"
                 className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium text-white shadow-md bg-[color:var(--orange-pantone)] hover:opacity-95"
               >
                 {t("aboutNew.ctaMap")}
-              </a>
-              <a
-                href="/veranstaltungen"
+              </Link>
+              <Link
+                to="/events"
                 className="inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium text-[color:var(--black-bean)] border border-[color:var(--peach-fuzz)]/80 bg-white hover:bg-[color:var(--misty-rose)]/40"
               >
                 {t("aboutNew.ctaEvents")}
-              </a>
+              </Link>
             </div>
           </div>
         </header>
