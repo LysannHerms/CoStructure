@@ -81,8 +81,8 @@ const ProgramCalendarSection: React.FC = () => {
   ];
 
   const groups: Record<string, CalendarItemKeys[]> = {
-    [months[0]]: items.slice(0, 2),
-    [months[1]]: items.slice(2, 4),
+    [months[0]]: items.slice(0, 1),
+    [months[1]]: items.slice(1, 4),
     [months[2]]: items.slice(4, 6),
     [months[3]]: items.slice(6, 8),
   };
