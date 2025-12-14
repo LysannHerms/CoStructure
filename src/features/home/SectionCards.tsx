@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { publicUrl } from "../../shared/publicUrl"; // oder relativer Pfad
 
 export default function SectionCards() {
   const { t } = useTranslation("common");
@@ -9,19 +10,19 @@ export default function SectionCards() {
       title: t("cards.mapTitle"),
       desc: t("cards.mapDesc"),
       to: "/map",
-      image: "/img/PH_1.png",
+      image: publicUrl("img/PH_1.png"),
     },
     {
       title: t("cards.galleryTitle"),
       desc: t("cards.galleryDesc"),
       to: "#",
-      image: "/img/PH_2.png",
+      image: publicUrl("img/PH_2.png"),
     },
     {
       title: t("cards.aboutTitle"),
       desc: t("cards.aboutDesc"),
       to: "/about",
-      image: "/img/PH_3.png",
+      image: publicUrl("img/PH_3.png"),
     },
   ];
 
@@ -30,19 +31,19 @@ export default function SectionCards() {
       title: t("cards.eventsTitle"),
       desc: t("cards.eventsDesc"),
       to: "/events",
-      image: "/img/PH_4.png",
+      image: publicUrl("img/PH_4.png"),
     },
     {
       title: t("cards.newsTitle"),
       desc: t("cards.newsDesc"),
       to: "#",
-      image: "/img/PH_5.png",
+      image: publicUrl("img/PH_5.png"),
     },
     {
       title: t("cards.storiesTitle"),
       desc: t("cards.storiesDesc"),
       to: "#",
-      image: "/img/PH_6.png",
+      image: publicUrl("img/PH_6.png"),
     },
   ];
 
