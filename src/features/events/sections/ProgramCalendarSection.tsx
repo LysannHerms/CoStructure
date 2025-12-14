@@ -28,7 +28,7 @@ const ProgramCalendarSection: React.FC = () => {
       timeKey: "events.calendar.items.eventLaunch.time",
       titleKey: "events.calendar.items.eventLaunch.title",
       typeKey: "events.calendar.items.eventLaunch.type",
-      locationKey: "events.calendar.items.meventLaunch.location",
+      locationKey: "events.calendar.items.eventLaunch.location",
     },
     {
       id: "mobilePopUp",
