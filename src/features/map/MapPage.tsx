@@ -11,10 +11,12 @@ import Toolbar from "../../features/map/Toolbar";
 import { defaultFilters, type FilterState } from "../../features/map/filterTypes";
 
 //Icons je Status (1–4)
+export const publicUrl = (p: string) =>
+  `${import.meta.env.BASE_URL}${p.replace(/^\/+/, "")}`;
 const statusIconMap: Record<number, L.Icon> = {
   
   1: new L.Icon({
-    iconUrl: "/img/Marker_1.svg", // realisiert
+    iconUrl: publicUrl("img/Marker_1.svg"), // realisiert
     iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],

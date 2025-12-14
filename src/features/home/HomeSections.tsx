@@ -4,9 +4,7 @@ import { useTranslation } from "react-i18next";
 import Section from "../../shared/ui/Section";
 import CubeSection from "./CubeSection";
 
-/**
- * Projekt-Einführung (Bild + Text)
- */
+
 export const ProjectIntroSection: FC = () => {
   const { t } = useTranslation("common");
 
@@ -14,7 +12,7 @@ export const ProjectIntroSection: FC = () => {
     <div className="px-4 ">
     <Section title={t("project.title")} subtitle={t("project.subtitle")}>
       <div className="grid gap-8 md:grid-cols-2  md:items-start">
-        {/* Bild */}
+        
         <div className="order-2 md:order-1 ">
           <div className=" x-8 w-full overflow-hidden rounded-2xl ">
             <img
@@ -25,7 +23,7 @@ export const ProjectIntroSection: FC = () => {
           </div>
         </div>
 
-        {/* Text */}
+        
         <div className="order-1 space-y-4 md:order-2">
           <p className="text-sm leading-relaxed text-[color:var(--black-bean)]/90 md:text-base">
             <div
@@ -53,7 +51,7 @@ export const ProjectIntroSection: FC = () => {
 
           <div className="mt-3 flex flex-wrap gap-3">
             <Link
-              to="/map"
+              to="/events"
               className="inline-flex items-center rounded-lg border border-[color:var(--orange-pantone)] bg-[color:var(--orange-pantone)] px-4 py-2 font-semibold text-white hover:bg-[color:var(--golden-gate)]"
             >
               {t("project.ctaMap")}
@@ -62,7 +60,7 @@ export const ProjectIntroSection: FC = () => {
               to="/about"
               className="inline-flex items-center rounded-lg border border-[color:var(--caput-mortuum)] px-4 py-2  font-semibold text-[color:var(--caput-mortuum)] hover:bg-[color:var(--anti-flash-white)]"
             >
-              {t("project.ctaMore")}
+              {t("hero.ctaSecondary")}
             </Link>
           </div>
         </div>
@@ -79,16 +77,9 @@ export const WhyCoStructureSection: FC = () => {
     <Section title={t("why.title")}>
       <div className="md:py-7 ">
         <div className="space-y-4 text-sm md:text-base leading-relaxed text-[color:var(--black-bean)]/90 ">
-          {/* Hook */}
           <p className="font-semibold text-[color:var(--black-bean)]">{t("why.hook")}</p>
-
-          {/* Absatz 1 */}
           <p>{t("why.p1")}</p>
-
-          {/* Absatz 2 */}
           <p>{t("why.p2")}</p>
-
-          {/* Kleine Liste in der Mitte – lockert auf */}
           <div className="pl-4 border-l border-[color:var(--black-bean)]/15">
             <p className="font-semibold mb-1 text-[color:var(--black-bean)]">
               {t("why.listIntro")}
@@ -99,8 +90,6 @@ export const WhyCoStructureSection: FC = () => {
               <li>{t("why.list3")}</li>
             </ul>
           </div>
-
-          {/* Absatz 3 + Abschluss */}
           <p>{t("why.p3")}</p>
           <p className="font-semibold italic text-[color:var(--black-bean)]">{t("why.p4")}</p>
         </div>
