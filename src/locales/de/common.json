@@ -47,7 +47,7 @@
     "joinTitle": "Ideen aus der Nachbarschaft",
     "joinText": "Aktuell sammeln wir mögliche Orte und Nutzungen. In Zukunft kannst du hier Vorschläge einreichen oder Rückmeldungen geben."
   },
-  "footer": "© {{year}} CoStructure",
+  "footer": "© {{year}} CoStructure- Die Website zeigt einen konzeptionellen Prototyp. Einige Bereiche dienen als Platzhalter für mögliche zukünftige Inhalte.",
 
   "cube": {
     "title": "Wie sehen die Cubes aus – und wofür sind sie gedacht?",
