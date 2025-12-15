@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import SkipLink from "../shared/ui/SkipLink";
 import Header from "../shared/ui/Header";
 import Footer from "../shared/ui/Footer";
+import ScrollToTop from "../shared/ui/ScrollToTop";
 
 export default function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ export default function App() {
             : "mx-auto max-w-6xl px-4 "
         }
       >
+        <ScrollToTop />
         <Outlet />
       </main>
 
