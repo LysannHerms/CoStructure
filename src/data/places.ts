@@ -21,6 +21,11 @@ export const PLACES: Place[] = [
     lng: 13.3669319,
     status: 1,
     isVacant: false,
+    previousUse: "Malzfabrik",
+    newUse: ["kultur","eventlocation", "gewerbe"],
+    notes: "Event- und Gewerbezentrum",
+    tags: ["reuse", "kultur", "gewerbe"],
+
   },
   {
     id: "mars",
@@ -34,6 +39,8 @@ export const PLACES: Place[] = [
     previousUse: "Krematorium",
     newUse: ["kultur","gastronomie"],
     isVacant: false,
+    notes: "Kultur- und Gastronomiezentrum",
+    tags: ["reuse", "kultur", "gastronomie"],
   },
   {
     id: "kulturbrauerei",
@@ -43,6 +50,9 @@ export const PLACES: Place[] = [
     lng: 13.4126884,
     status: 3,
     isVacant: false,
+    newUse: "kultur",
+    previousUse: "Brauerei",
+    tags: ["reuse", "kultur"],  
   },
   {
     id: "kindl",
@@ -53,7 +63,8 @@ export const PLACES: Place[] = [
     status: 1,
     previousUse: "Brauerei",
     newUse: "kultur",
-    isVacant: false,
+    isVacant: false, 
+    tags: ["reuse", "kultur"],
   },
   {
     id: "heeresbaeckerei",
@@ -89,6 +100,8 @@ export const PLACES: Place[] = [
     lng: 13.3636334,
     status: 3,
     isVacant: false,
+    previousUse: "Produktionshalle",
+    newUse: "kultur",
   },
   {
     id: "arena-berlin",

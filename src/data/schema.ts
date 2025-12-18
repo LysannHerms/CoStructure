@@ -1,5 +1,5 @@
 export type ReuseType =
-  | "kultur" | "wohnen" | "buero" | "bildung" | "gewerbe" | "gastronomie" | "sonstiges";
+  | "kultur" | "wohnen" | "buero" | "bildung" | "gewerbe" | "gastronomie" | "eventlocation"| "sonstiges";
 
 export type Place = {
   id: string;                 // Schlüssel für i18n etc.

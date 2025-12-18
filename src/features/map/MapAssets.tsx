@@ -17,7 +17,7 @@ export const statusIconMap: Record<number, L.Icon> = {
     popupAnchor: [0, -34],
   }),
   3: new L.Icon({
-    iconUrl: publicUrl("img/Marker_3.svg"),
+    iconUrl: publicUrl("img/Marker_3N.svg"),
     iconSize: [34, 44],
     iconAnchor: [14, 38],
     popupAnchor: [0, -34],

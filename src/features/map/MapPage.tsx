@@ -89,6 +89,7 @@ const MapPage: React.FC = () => {
           ${p.yearBuilt ? `<div>Baujahr: ${p.yearBuilt}</div>` : ""}
           ${p.architect ? `<div>Architekt: ${p.architect}</div>` : ""}
           <div>${p.isVacant ? "Leerstand: Ja" : "Leerstand: Nein"}</div>
+          ${p.newUse ? `<div class="mt-1">${p.newUse}</div>` : ""}
           ${p.notes ? `<div class="mt-1">${p.notes}</div>` : ""}
         </div>`,
       );
