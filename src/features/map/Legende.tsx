@@ -16,7 +16,7 @@ const LEGEND_ITEMS = [
   {
     status: 3,
     label: "In Planung",
-    iconUrl: publicUrl("img/Marker_3.svg"),
+    iconUrl: publicUrl("img/Marker_3N.svg"),
   },
   {
     status: 4,
